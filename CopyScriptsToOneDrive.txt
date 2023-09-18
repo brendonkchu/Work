@@ -1,0 +1,2 @@
+@echo off
+"C:\Windows\System32\Robocopy.exe" "C:\Scripts" "C:\Users\BChuc.ITNOTEBOOK001\OneDrive - flushingbank.com\Scripts" /MOT:60

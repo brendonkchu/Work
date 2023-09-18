@@ -1,0 +1,17 @@
+@echo off
+
+set /p name=Please enter the Username:
+echo %name%
+
+@echo on
+
+Pause
+
+xcopy "C:\Users\%name%\Desktop" "C:\TEMP\Backup\Desktop" /f /i /s /y /z 
+xcopy "C:\Users\%name%\Documents" "C:\TEMP\Backup\Documents" /f /i /s /y /z 
+xcopy "C:\Users\%name%\Downloads" "C:\TEMP\Backup\Downloads" /f /i /s /y /z
+xcopy "C:\Users\%name%\Pictures" "C:\TEMP\Backup\Pictures" /f /i /s /y /z 
+xcopy "C:\Users\%name%\AppData\Local\Google\Chrome\User Data\Default\Bookmarks" "C:\TEMP\Backup" /z /y
+xcopy "C:\Users\%name%\AppData\Local\Google\Chrome\User Data\Default\Bookmarks.bak" "C:\TEMP\Backup" /z /y
+
+Pause

@@ -1,0 +1,5 @@
+net share > "C:\TEMP\Backup\Local_Drives.txt"
+net use > "C:\TEMP\Backup\Mapped_Drives.txt"
+wmic printer list brief > "C:\TEMP\Backup\Installed_Printers.txt"
+
+Pause

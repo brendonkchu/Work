@@ -1,0 +1,1 @@
+Connect-ExchangeOnline -UserPrincipalName brendanh-ga@flushingbank.onmicrosoft.com -ShowProgress $true

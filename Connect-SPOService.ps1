@@ -1,0 +1,1 @@
+Connect-SPOService -Url https://flushingbank-admin.sharepoint.com

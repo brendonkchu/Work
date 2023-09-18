@@ -1,0 +1,1 @@
+﻿Get-ADUser bchuc #|Export-CSV C:\Scripts\Test.csv

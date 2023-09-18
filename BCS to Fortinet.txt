@@ -1,0 +1,548 @@
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+get-aduser : Cannot find an object with identity: 'CN=^BoardMembers,OU=Distribution 
+Lists,OU=FSB,DC=flushingsavings,DC=com' under: 'DC=flushingsavings,DC=com'.
+At C:\Scripts\Get-ADGroupMember.ps1:5 char:45
++ Get-ADGroupMember -identity $SecurityGroup |get-aduser|
++                                             ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CN=^BoardMember...gsavings,DC=com:ADUse  
+   r) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Manageme  
+   nt.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetAD   
+  User
+
+get-aduser : Cannot find an object with identity:
+'CN=ExecAdmins,OU=SPExecutive,OU=SharePoint,DC=flushingsavings,DC=com' under:
+'DC=flushingsavings,DC=com'.
+At C:\Scripts\Get-ADGroupMember.ps1:5 char:45
++ Get-ADGroupMember -identity $SecurityGroup |get-aduser|
++                                             ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CN=ExecAdmins,O...gsavings,DC=com:ADUse  
+   r) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Manageme  
+   nt.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetAD   
+  User
+
+get-aduser : Cannot find an object with identity: 'CN=^Business Banker,OU=Security 
+Groups,OU=FSB,DC=flushingsavings,DC=com' under: 'DC=flushingsavings,DC=com'.
+At C:\Scripts\Get-ADGroupMember.ps1:5 char:45
++ Get-ADGroupMember -identity $SecurityGroup |get-aduser|
++                                             ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CN=^Business Ba...gsavings,DC=com:ADUse  
+   r) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Manageme  
+   nt.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetAD   
+  User
+
+get-aduser : Cannot find an object with identity: 'CN=^Commercial Lending,OU=Security   
+Groups,OU=FSB,DC=flushingsavings,DC=com' under: 'DC=flushingsavings,DC=com'.
+At C:\Scripts\Get-ADGroupMember.ps1:5 char:45
++ Get-ADGroupMember -identity $SecurityGroup |get-aduser|
++                                             ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CN=^Commercial ...gsavings,DC=com:ADUse  
+   r) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Manageme  
+   nt.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetAD   
+  User
+
+get-aduser : Cannot find an object with identity: 'CN=Resi-Mixed 
+Use,OU=SPReporting,OU=SharePoint,DC=flushingsavings,DC=com' under:
+'DC=flushingsavings,DC=com'.
+At C:\Scripts\Get-ADGroupMember.ps1:5 char:45
++ Get-ADGroupMember -identity $SecurityGroup |get-aduser|
++                                             ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CN=Resi-Mixed U...gsavings,DC=com:ADUse  
+   r) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Manageme  
+   nt.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetAD   
+  User
+
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+Get-ADGroupMember : Cannot find an object with identity: 'BCS_AllowedSevurevdr' under: 
+'DC=flushingsavings,DC=com'.
+At C:\Scripts\Get-ADGroupMember.ps1:5 char:1
++ Get-ADGroupMember -identity $SecurityGroup |get-aduser|
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (BCS_AllowedSevurevdr:ADGroup) [Get-ADGr  
+   oupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Manageme  
+   nt.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetAD   
+  GroupMember
+
+PS C:\Scripts>
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+get-aduser : Cannot find an object with identity: 'CN=^BoardMembers,OU=Distribution 
+Lists,OU=FSB,DC=flushingsavings,DC=com' under: 'DC=flushingsavings,DC=com'.
+At C:\Scripts\Get-ADGroupMember.ps1:5 char:45
++ Get-ADGroupMember -identity $SecurityGroup |get-aduser|
++                                             ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CN=^BoardMember...gsavings,DC=com:ADUse  
+   r) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Manageme  
+   nt.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetAD   
+  User
+
+get-aduser : Cannot find an object with identity:
+'CN=ExecAdmins,OU=SPExecutive,OU=SharePoint,DC=flushingsavings,DC=com' under:
+'DC=flushingsavings,DC=com'.
+At C:\Scripts\Get-ADGroupMember.ps1:5 char:45
++ Get-ADGroupMember -identity $SecurityGroup |get-aduser|
++                                             ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CN=ExecAdmins,O...gsavings,DC=com:ADUse  
+   r) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Manageme  
+   nt.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetAD  
+  User
+
+get-aduser : Cannot find an object with identity: 'CN=^Business Banker,OU=Security      
+Groups,OU=FSB,DC=flushingsavings,DC=com' under: 'DC=flushingsavings,DC=com'.
+At C:\Scripts\Get-ADGroupMember.ps1:5 char:45
++ Get-ADGroupMember -identity $SecurityGroup |get-aduser|
++                                             ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CN=^Business Ba...gsavings,DC=com:ADUse  
+   r) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Manageme  
+   nt.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetAD   
+  User
+
+get-aduser : Cannot find an object with identity: 'CN=^Commercial Lending,OU=Security   
+Groups,OU=FSB,DC=flushingsavings,DC=com' under: 'DC=flushingsavings,DC=com'.
+At C:\Scripts\Get-ADGroupMember.ps1:5 char:45
++ Get-ADGroupMember -identity $SecurityGroup |get-aduser|
++                                             ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CN=^Commercial ...gsavings,DC=com:ADUse  
+   r) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Manageme 
+   nt.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetAD   
+  User
+
+get-aduser : Cannot find an object with identity: 'CN=Resi-Mixed
+Use,OU=SPReporting,OU=SharePoint,DC=flushingsavings,DC=com' under:
+'DC=flushingsavings,DC=com'.
+At C:\Scripts\Get-ADGroupMember.ps1:5 char:45
++ Get-ADGroupMember -identity $SecurityGroup |get-aduser|
++                                             ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CN=Resi-Mixed U...gsavings,DC=com:ADUse  
+   r) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Manageme  
+   nt.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetAD   
+  User
+
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Get-ADGroupMember.ps1'
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Added DPinou@flushingbank.com to Fortinet_SSO_Admins
+Added YNuriyev@flushingbank.com to Fortinet_SSO_Admins
+Added mgarcia3@flushingbank.com to Fortinet_SSO_Admins
+Added tbuonaiuto@flushingbank.com to Fortinet_SSO_Admins
+Added APersaud@flushingbank.com to Fortinet_SSO_Admins
+Added glaub@flushingbank.com to Fortinet_SSO_Admins
+Added snepaul@flushingbank.com to Fortinet_SSO_Admins
+Added JFeniello@flushingbank.com to Fortinet_SSO_Admins
+Added Abrewer@flushingbank.com to Fortinet_SSO_Admins
+Added ivantiservice@flushingsavings.com to Fortinet_SSO_Admins
+APersaud-AD@flushingsavings.com already exists in Fortinet_SSO_Admins
+Added SRomagnolo@flushingbank.com to Fortinet_SSO_Admins
+Added MDiStasio@flushingbank.com to Fortinet_SSO_Admins
+Added CColorundo@flushingbank.com to Fortinet_SSO_Admins
+Added CBriant@flushingbank.com to Fortinet_SSO_Admins
+Added mgrasso@flushingbank.com to Fortinet_SSO_Admins
+Added szhitelzeyf@flushingbank.com to Fortinet_SSO_Admins
+Added kchi@flushingbank.com to Fortinet_SSO_Admins
+Added FSBService@flushingsavings.com to Fortinet_SSO_Admins
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts>
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Added DPinou@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added CMea@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added ASavastano@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added APersaud@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added MDeutsch@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added glaub@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added mtodd2@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added Amenniti@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added JOrelli@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added jmustapich@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added Cregan@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added ssadlis@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Added ptiffany@flushingbank.com to Fortinet_SSO_AllowedDropbox
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts>
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Added EWong@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added CArcher@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added KCarson@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added CPennino@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added EBarry@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added EThornton@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added KWong@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added RKapoor@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added GWilliams@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MDiamond@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added LHanze@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added RDzwlewicz@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added KPotter@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added LBlumenthal@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JMarte@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MGeevarghese@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added DBianrosa@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MMalkowski@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added HLewis@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added TPerrotta@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added SDiGeronimo@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MMerritt@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added NMildon@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added OOjugbele@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JHsieh1@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added SKo@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added CKim@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added AMelville@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MSingh1@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added rstewart@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added SObrien@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added SBisnauth@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added RDellegar@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added RMiller@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added ROk@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JYu1@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added VRaveneau@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added AGustafson@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added HYi@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MCubrah@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added AAkturk@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added TMaramonte@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added KFinnegan@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added SMolfetta@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added SCodispodo@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added LGreatsinger@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MTomek@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added GRodriguez@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added RPuccio@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added CRamrup@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added SHowland@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added SBarber@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JPomerantz@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added LImerti@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MSolorzano-Navarro@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added ASavastano@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added RSchepis@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added DCorcoran@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added lmoran@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added RAlbino@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added VGiovinco@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added PDavi@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added msoffer@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added GMagaldi@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added PMurray@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added LLowy@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added ESilva@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added ARamsamooj@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added CMouchacca@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added TBogue@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added TFlamenbaum@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added CSteunenberg@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JMorton@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added TCui@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added AHarvey@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added khuo@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JTellekamp@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added LCornell@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added HFugate@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added ANese@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added DVillacres@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added VJadbir@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added FDeSantis@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MNedder@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added CNigro@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added ABaldeo@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MKaiser@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MLembo@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MDeutsch@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MPollis@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added reng@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added tbrown@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added TCullen@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added HEliach@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added SRokhsar@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MMiliano@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added VCorasaniti@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JStern@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added DLee@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MMadoff@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added asompolou@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added Cturner@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added tclemens@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added AChung@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added EJurakan@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added DJoseph@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MNugent@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added PModena@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added CTamney@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added GBader@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added TKalogiannis@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added DHealy@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added WStumpf@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added CMarcelo@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added CAnello@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added COHara@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added TLynn@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added GMisciagna@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added ilazebnik@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JMeyer@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added ECarroll@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added jng@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added pdolan@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added mwitter@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added Pakosah@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added sglass@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added Eneofitidis@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added SPersaud@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added MPADILLA@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added jjacovatos@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JALONGI@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added sknutson@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added abozzolo@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added ylevintov@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added Dmangan@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added joconnor@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JKIM@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added jticona@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added lweinschreider@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added sarzt@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added gbuitrago@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added jkumpas@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added mbianco@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added kfenton@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added GLiotta@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added lyam@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added Amenniti@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JOrelli@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added AJIN@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added Abrewer@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added JROCHE@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added pmezeul@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added jJenkins@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added TKELLY@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added FKORZEKW@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added ELaBarbera@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added wsushko@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Added LNoto@flushingbank.com to Fortinet_SSO_AllowedGoogleDocs
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts>
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Added snepaul@flushingbank.com to Fortinet_SSO_AllowedHulu
+Added JMeyer@flushingbank.com to Fortinet_SSO_AllowedHulu
+Added sglass@flushingbank.com to Fortinet_SSO_AllowedHulu
+Added ACampisi@flushingbank.com to Fortinet_SSO_AllowedHulu
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts>
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Added PAngelastro@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added KWong@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added GWilliams@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added ACoppin@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added MHolley@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added JMora@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added ERosales@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added DPinou@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added MHalleran@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added TFagan@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added FGraham-Pearson@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added DMcClintock@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added mohalloran@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added TKennedy@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added RNabadda@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added KThompson@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added TEsposito@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added KCostas@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added EZoller@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added MCamara@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added KBusch@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added RMantekas@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added tbuonaiuto@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added jspatola@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added MPasterick@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added CSteunenberg@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added YTsai@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added LCornell@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added MMartin@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added NJackson@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+glaub@flushingbank.com already exists in Fortinet_SSO_AllowedOneDrive
+Added MGarcia@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added tbrown@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added DBradle@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added RNarvaez@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added LEstevez@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added CRiccardi@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added TKalogiannis@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added DFasolino@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added SCullen@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added COHara@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added ICabrera@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added CObuchowski@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added Clee@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added mwitter@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added adilone@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added jclaxton@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added MPADILLA@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added JFeniello@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added mbingold@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added ACampisi@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added agreene@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added MMeihoefer@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added mtodd2@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added Amenniti@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added JOrelli@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added Mdecesare@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added pmezeul@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added NDelicce@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added jdimino@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added FKORZEKW@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added ELaBarbera@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added mgrasso@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Added jburan@flushingbank.com to Fortinet_SSO_AllowedOneDrive
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts> 
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Added MGarcia@flushingbank.com to Fortinet_SSO_AllowedSecurevdr
+Added GMurolo@flushingbank.com to Fortinet_SSO_AllowedSecurevdr
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts>
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Added EWong@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added CArcher@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added KCarson@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added KWong@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added RDzwlewicz@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added MGeevarghese@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added JHsieh1@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added EAlvarez@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added ROk@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added KFinnegan@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added YNuriyev@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added CKeyes@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added MTomek@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added SHowland@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added SBarber@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added NAngioletti@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added xzhang@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added JPomerantz@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added RMantekas@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added MKhan@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added JPerry-Krucenski@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added JTellekamp@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added LCornell@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added RWhite@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added tbrown@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added HEliach@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added DBradle@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added VCorasaniti@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added adomillmaltese@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added tclemens@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added GBader@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added DHealy@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added DFasolino@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added TLynn@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added JRinaldi@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added jjacovatos@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added adatta@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added JALONGI@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added jbaolto@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added mbianco@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added mtodd2@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added Abrewer@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added Cregan@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added JROCHE@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added pmezeul@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added ptiffany@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Added FKORZEKW@flushingbank.com to Fortinet_SSO_AllowedSharedFiles
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts>
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Added RTariche@flushingbank.com to Fortinet_SSO_AllowedSocialMedia
+Added CBriant@flushingbank.com to Fortinet_SSO_AllowedSocialMedia
+Added RRusso@flushingbank.com to Fortinet_SSO_AllowedSocialMedia
+Added CColorundo@flushingbank.com to Fortinet_SSO_AllowedSocialMedia
+Added BBateman@flushingbank.com to Fortinet_SSO_AllowedSocialMedia
+Added SRomagnolo@flushingbank.com to Fortinet_SSO_AllowedSocialMedia
+Added lbiondo@flushingbank.com to Fortinet_SSO_AllowedSocialMedia
+Added esouthwell@flushingbank.com to Fortinet_SSO_AllowedSocialMedia
+Added KFinnegan@flushingbank.com to Fortinet_SSO_AllowedSocialMedia
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts>
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts>
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Added YNuriyev@flushingbank.com to Fortinet_SSO_AllowedVenminder
+Added adomillmaltese@flushingbank.com to Fortinet_SSO_AllowedVenminder
+Added Tgino@flushingbank.com to Fortinet_SSO_AllowedVenminder
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts>
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Added DPinou@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added CHines@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added APesonen@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added YNuriyev@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added glaub@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added jstuart@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added WStumpf@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added JRinaldi@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added JKoszalka@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added GLiotta@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added rfiliberto@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added rfleishman@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added jyu@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added Nballato@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added AFORMICA@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added splotkin@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added SRomagnolo@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added BBateman@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added CColorundo@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added CBriant@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added JMione@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added RTariche@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Added szhitelzeyf@flushingbank.com to Fortinet_SSO_AllowedYouTube
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts>
+PS C:\Scripts> . 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+Transcript stopped, output file is C:\Scripts\Add-ADUsers.log
+PS C:\Scripts>
