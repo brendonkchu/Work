@@ -8,4 +8,26 @@
     ],
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true
+
+    "workbench.colorCustomizations": {
+        "contrastActiveBorder":"#e4ffde",
+        "editor.background": "#4d5d53",
+        "editor.foreground": "#738276",
+        "sideBar.background":"#4d5d53",
+        "sideBar.foreground": "#E4FFDE",
+        "icon.foreground": "#fc3577",
+        "selection.background": "#738276",
+        "editor.selectionBackground": "#738276",
+        "contrastBorder": "#8f9779",
+        "editor.lineHighlightBackground": "#8f9779",
+        "sideBarTitle.foreground":"#81ffc4",
+        "sideBarSectionHeader.background":"#8f9779",
+        "sideBarSectionHeader.foreground":"#81ffc4",
+        "scrollbarSlider.background":"#81ffc4",
+        "panel.border":"#8f9779",
+        "panelTitle.inactiveForeground":"#E4FFDE",
+        "panelTitle.activeForeground":"#81ffc4",
+        "terminal.foreground":"#fc3577"
+
 }
+
