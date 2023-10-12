@@ -1,15 +1,32 @@
-# Import the PsExec module
-#Import-Module PsExec
+Get-ChildItem -Path "" <#-Recurse#> -Directory -Force -ErrorAction SilentlyContinue | Select-Object FullName
+[System.IO.File]::Exists($path)
 
-# Get the list of computers from the text file
-$computers = Get-Content c:\temp\computers.txt
+$filestowatch=get-content C:\H\files-to-watch.txt
 
-# Loop through the list of computers
-foreach ($computer in $computers) {
+$adminFiles=dir C:\H\admin\admin -recurse | ? { $fn=$_.FullName; ($filestowatch | % {$fn.contains($_)}) -contains $True}
 
-    # Copy the MSI file to the remote computer
-    C:\Scripts\PsExec.exe \\AVDITDEV-4 -u [flushingsavings]\[bchucda] -p ['w8047Ec*ZC@#v'] -s -i -d -c "copy c:\temp\LVExcelAddInSetup.msi \\$computer\c$\"
+$userFiles=dir C:\H\user\user -recurse | ? { $fn=$_.FullName; ($filestowatch | % {$fn.contains($_)}) -contains $True}
 
-    # Run the MSI file on the remote computer
-    C:\Scripts\PsExec.exe \\AVDITDEV-4 -u [flushingsavings]\[bchucda] -p ['w8047Ec*ZC@#v'] -s -i -d -c "msiexec /i \\AVDITDEV-4\c$\LVExcelAddInSetup.msi /norestart"
-}
+foreach($userfile in $userFiles)
+{
+
+      $exactadminfile= $adminfiles | ? {$_.Name -eq $userfile.Name} |Select -First 1
+      $filetext1=[System.IO.File]::ReadAllText($exactadminfile.FullName)
+      $filetext2=[System.IO.File]::ReadAllText($userfile.FullName)
+      $equal = $filetext1 -ceq $filetext2 # case sensitive comparison
+
+      if ($equal) { 
+        Write-Host "Checking == : " $userfile.FullName 
+        continue; 
+      } 
+
+      if($exactadminfile.LastWriteTime -gt $userfile.LastWriteTime)
+      {
+         Write-Host "Checking != : " $userfile.FullName " >> user"
+         Copy-Item -Path $exactadminfile.FullName -Destination $userfile.FullName -Force
+       }
+       else
+       {
+          Write-Host "Checking != : " $userfile.FullName " >> admin"
+          Copy-Item -Path $userfile.FullName -Destination $exactadminfile.FullName -Force
+       }

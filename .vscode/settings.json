@@ -14,7 +14,7 @@
              "textMateRules": [{
                 "scope":  "punctuation",
                 "settings":{
-                    "foreground": "#789b78",
+                    "foreground": "#96c496",
                     "fontStyle": "bold"
                 }
              }]  
@@ -34,7 +34,7 @@
         "panelTitle.activeForeground":"#81ffc4",
         "terminal.foreground":"#fc3577",
         "editor.selectionBackground": "#738276",
-        "editor.lineHighlightBackground": "#8f9779",
+        "editor.lineHighlightBackground": "#738678",
         "icon.foreground": "#fc3577",
         "selection.background": "#738276",
         "contrastBorder": "#8f9779",
