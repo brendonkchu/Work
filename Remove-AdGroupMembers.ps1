@@ -1,5 +1,5 @@
-﻿# Start transcript
-Start-Transcript -Path C:\Scripts\Add-ADUsers.log #-Append
+# Start transcript
+Start-Transcript -Path C:\Scripts\Remove-ADUsers.log -Append
 
 # Import AD Module
 Import-Module ActiveDirectory
@@ -7,17 +7,17 @@ Import-Module ActiveDirectory
 # Import the data from CSV file and assign it to variable
 $Users = Import-Csv "C:\Scripts\Add-ADUsersToGroup.csv"
 
-# Specify target group where the users will be added to
+# Specify target group where the users will be removed from
 # You can add the distinguishedName of the group. For example: CN=Pilot,OU=Groups,OU=Company,DC=exoip,DC=local
-$Group = "SSO_AdobeAcrobatPro" 
+$Group = "SSO_AdobeAcrobatStandard" 
 
 foreach ($User in $Users) {
     # Retrieve UPN
     $UPN = $User.UserPrincipalName
-    
+
     # Retrieve UPN related SamAccountName
     $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Select-Object SamAccountName
-
+    
     # User from CSV not in AD
     if ($ADUser -eq $null) {
         Write-Host "$UPN does not exist in AD" -ForegroundColor Red
@@ -26,14 +26,16 @@ foreach ($User in $Users) {
         # Retrieve AD user group membership
         $ExistingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | Select-Object Name
 
-        # User already member of group
+        # User member of group
         if ($ExistingGroups.Name -eq $Group) {
-            Write-Host "$UPN already exists in $Group" -ForeGroundColor Yellow
+
+            # Remove user from group
+            Remove-ADGroupMember -Identity $Group -Members $ADUser.SamAccountName -Confirm:$false -WhatIf
+            Write-Host "Removed $UPN from $Group" -ForeGroundColor Green
         }
         else {
-            # Add user to group
-            Add-ADGroupMember -Identity $Group -Members $ADUser.SamAccountName
-            Write-Host "Added $UPN to $Group" -ForeGroundColor Green
+            # User not member of group
+            Write-Host "$UPN does not exist in $Group" -ForeGroundColor Yellow
         }
     }
 }

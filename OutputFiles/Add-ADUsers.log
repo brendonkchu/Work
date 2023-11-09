@@ -1,0 +1,56 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231107105048
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1698679053-bcb83184-b488-46e7-8ee1-ffd25f5ff88b1698679048741\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-8968-974651.json' -FeatureFlags @() 
+Process ID: 4168
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\Add-ADUsers.log
+AGoess@flushingbank.com already exists in SSO_AdobeAcrobatStandard
+AJin@flushingbank.com already exists in SSO_AdobeAcrobatStandard
+FKorzekwinski@flushingbank.com does not exist in AD
+RLauria@flushingbank.com already exists in SSO_AdobeAcrobatStandard
+TLynn@flushingbank.com already exists in SSO_AdobeAcrobatStandard
+CMea@flushingbank.com already exists in SSO_AdobeAcrobatStandard
+MMiliano@flushingbank.com already exists in SSO_AdobeAcrobatStandard
+PMurray@flushingbank.com already exists in SSO_AdobeAcrobatStandard
+CPennino@flushingbank.com already exists in SSO_AdobeAcrobatStandard
+MPortnoy@flushingbank.com already exists in SSO_AdobeAcrobatStandard
+ASavastano@flushingbank.com already exists in SSO_AdobeAcrobatStandard
+ESilva@flushingbank.com already exists in SSO_AdobeAcrobatStandard
+Confirm
+Are you sure you want to perform this action?
+Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+l
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;E;. 'C:\x5cScripts\x5cAdd-ADUsersToGroup.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>. 'C:\Scripts\Add-ADUsersToGroup.ps1'
+**********************
+Windows PowerShell transcript end
+End time: 20231107105343
+**********************

@@ -2,6 +2,8 @@ import pandas as pd
 import openpyxl
 import logging
 from ldap3 import Server, Connection, ALL
+import subprocess
+import sys
 
 # Setup logging to file
 logging.basicConfig(filename='c:\\IBM\\feed.log',       # Name of the log file
@@ -9,10 +11,20 @@ logging.basicConfig(filename='c:\\IBM\\feed.log',       # Name of the log file
                     format='%(asctime)s - %(levelname)s - %(message)s',  # Format of log messages
                     datefmt='%Y-%m-%d %H:%M:%S')  # Date format
 
+# Decide whether to use this script or another based on application name
+app_name = "RemoteLender" #input("Please enter the name of the application in IGI: ")
+
+if app_name == "Pentana":
+    subprocess.Popen([sys.executable, 'Pentana.py'])
+    print(f"Pentana uses a custom script for processing. This script made an attempt to run it before ending. If it didn't run try to run it directly")
+    sys.exit()
+
+
+
 # Prompt the user for the Excel file's source and destination locations
 logging.info("Prompt the user for the Excel file's source and destination locations")
-source_file = input("Please enter the source Excel file location (e.g., C:\\IBM\\file.xlsx): ")
-destination_file = input("Please enter the destination Excel file location (e.g., C:\\IBM\\file2.csv): ")
+source_file = "\\\\192.168.100.186\\dropoff\\2023\\Remote Lender\\Remote Lender User Report.xlsx" #input("Please enter the source Excel file location (e.g., \\\\192.168.100.186\\dropoff\\2023\\AppName\\FileName.xlsx): ")
+destination_file = "\\\\192.168.100.186\\dropoff\\2023\\Remote Lender\\FEED2-Remote Lender User Report.csv"#input("Please enter the destination CSV file location (e.g., C:\\IBM\\file2.csv): ")
 logging.info("Source file: " + source_file)
 logging.info("Destination file: " + destination_file)
 
@@ -22,17 +34,17 @@ def get_input(prompt):
     return value if value else None
 
 # Prompt the user for the attribute names
-email_col = get_input("Please enter the name of the column representing Email Address: ")
-first_name_col = get_input("Please enter the name of the column representing First Name: ")
-last_name_col = get_input("Please enter the name of the column representing Last Name: ")
-group_col = get_input("Please enter the name of the column representing Group: ")
-userid_col = get_input("Please enter the name of the column representing the userid: ")
-full_name_col = get_input("Please enter the name of the column representing the full name: ")
-last_login = get_input("Does this report include Last Login data? (Y/N) ")
+email_col = "Email" #get_input("Please enter the name of the column representing Email Address: ")
+first_name_col = "First Name" #get_input("Please enter the name of the column representing First Name: ")
+last_name_col = "Last Nam" #get_input("Please enter the name of the column representing Last Name: ")
+group_col = "Roles" #get_input("Please enter the name of the column representing Group: ")
+userid_col = "Email" #get_input("Please enter the name of the column representing the userid: ")
+full_name_col = "" #get_input("Please enter the name of the column representing the full name: ")
+last_login = "Y" #get_input("Does this report include Last Login data? (Y/N) ")
 
 
 if last_login.upper() == "Y":
-    last_login_col = get_input("Please enter the name of the column representing Last_Login_On: ")
+    last_login_col = "Last Login" #get_input("Please enter the name of the column representing Last_Login_On: ")
 
 
 # Read the Excel file
@@ -67,6 +79,11 @@ for index, row in df.iterrows():
     groups = str(row.get(group_col, '')).split('\n')
     email = row.get(email_col, None)
 
+    if last_login.upper() == "Y":
+        last_login_date = f"Last Login On: {row.get(last_login_col, '')}"
+    else:
+        last_login_date = None
+
     # Diagnostic logging
     logging.info(f"Row {index} Email value: '{email}' Type: {type(email)}")
 
@@ -84,6 +101,7 @@ for index, row in df.iterrows():
         logging.info("Email is missing. Set samaccountname to: " + samaccountname)
     else:
         samaccountname = get_samaccountname(email)
+
         if not samaccountname:
             samaccountname = email
 
@@ -94,7 +112,8 @@ for index, row in df.iterrows():
                    'Full Name': full_name,
                    'group': group,
                    'userid': row.get(userid_col, ''),
-                   'samaccountname': samaccountname}
+                   'samaccountname': samaccountname,
+                   'Last Login On': last_login_date}
         expanded_rows.append(new_row)
 
         if last_login.upper() == "Y":
@@ -103,10 +122,13 @@ for index, row in df.iterrows():
                                'First Name': first_name,
                                'Last Name': last_name,
                                'Full Name': full_name,
-                               'group': f"Last Login On: {row.get(last_login_col, '')}",
+                               #'group': f"Last Login On: {row.get(last_login_col, '')}",
+                               'group': f"Last Login On for {row.get(userid_col, '')}: {row.get(last_login_col, '')}",
                                'userid': row.get(userid_col, ''),
-                               'samaccountname': samaccountname}
+                               'samaccountname': samaccountname,
+                               'Last Login On': last_login_date}
             expanded_rows.append(entitlement_row)
+            print(entitlement_row)
 
 # Create a new DataFrame from expanded rows
 expanded_df = pd.DataFrame(expanded_rows)

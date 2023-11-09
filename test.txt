@@ -1,0 +1,182 @@
+*@cresa.com
+*@fsuite.co
+*@payprocorp.com
+*@savingsaura.com
+*@cigniti.com
+*@wheelsup.com
+*@webinarhr.co
+*@tritonhro.com
+*@news.pitchbook.com
+*@me-conferences.co.uk
+*@empressfunding.com
+*@cyaibotics.com
+*@m1.clearhracademy.com
+*@e.lb.soundest.email
+*@explore.finacle.com
+*@a.lp.soundest.email
+*@insightsoftware.com
+*@forvis.com
+*@campaign.simplivlearning.co
+*@m1.clearhracademy.com
+*@b.lp.soundest.email
+*@innovaturebpo.org
+*@crayon.com
+*@b.lp.soundest.email
+*@e.lb.soundest.email
+*@lamacchiagroup.com
+*@hello.payscale.com
+*@mkt.zoominfo.com
+*@libn.com
+*@projectretentionteam.com
+*@marcusevansmail.com
+*@tipalti.com
+*@rateshopreports.com
+*@edigitaltechno.com
+*@hrglobal.cloud
+*@b.lp.soundest.email
+*@skystem.com
+*@logically.com
+*@1105info.com
+*@e.lb.soundest.email
+*@maxex.com
+*@a.lp.soundest.email
+*@b.lp.soundest.email
+*@maadvisor.com
+*@crnrstone.com
+*@milliman.com
+*@aggregage.com
+*@usi.com
+*@b.lp.soundest.email
+*@presentation-exc.com
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-0
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-0
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-11
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-11
+$VM = Get-AzVM -ResourceGroupName azureimagesrg -Name AVDIT-12
+Stop-AzVM -ResourceGroupName azureimagesrg -Name AVDIT-12 -Force
+Update-AzVM -VM $VM -ResourceGroupName azureimagesrg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName azureimagesrg -Name AVDIT-12
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-14
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-14
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-15
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-15
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-16
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-16 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-16
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-2
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-2
+$VM = Get-AzVM -ResourceGroupName azureimagesrg -Name AVDIT-28
+Stop-AzVM -ResourceGroupName azureimagesrg -Name AVDIT-28 -Force
+Update-AzVM -VM $VM -ResourceGroupName azureimagesrg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName azureimagesrg -Name AVDIT-28
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-29
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-29 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-29
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-3
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-3
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-30
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-30 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-30
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-31
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-31 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-31
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-33
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-33 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-33
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-35
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-35 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-35
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-36
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-36 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-36
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-39
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-39 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-39
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-40
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-40 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-40
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-41
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-41 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-41
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-42
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-42 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-42
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-43
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-43 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-43
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-44
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-44 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-44
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-45
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-45 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-45
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-46
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-46 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-46
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-5
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-5
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-6
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-6
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-0
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-0
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-10
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-10
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-4
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-4
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-5
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-5
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-6
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-6
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-7
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-7
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-8
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-8
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-9
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-9
