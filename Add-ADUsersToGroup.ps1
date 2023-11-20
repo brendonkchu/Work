@@ -1,22 +1,22 @@
 ﻿# Start transcript
-Start-Transcript -Path C:\Scripts\Add-ADUsers.log #-Append
+Start-Transcript -Path C:\Scripts\OutputFiles\Add-ADUsers.log #-Append
 
 # Import AD Module
 Import-Module ActiveDirectory
 
 # Import the data from CSV file and assign it to variable
-$Users = Import-Csv "C:\Scripts\Add-ADUsersToGroup.csv"
+$Users = Import-Csv "C:\Scripts\OutputFiles\Add-ADUsersToGroup.csv"
 
 # Specify target group where the users will be added to
 # You can add the distinguishedName of the group. For example: CN=Pilot,OU=Groups,OU=Company,DC=exoip,DC=local
-$Group = "SSO_AdobeAcrobatPro" 
+$Group = "AzureFiles-Marcus Public" 
 
 foreach ($User in $Users) {
     # Retrieve UPN
-    $UPN = $User.UserPrincipalName
+    $UPN = $User.SamAccountName #Previously set to $User.UserPrincipleName which would reflect in the CSV file Column Header
     
     # Retrieve UPN related SamAccountName
-    $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Select-Object SamAccountName
+    $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select-Object SamAccountName
 
     # User from CSV not in AD
     if ($ADUser -eq $null) {
@@ -31,8 +31,8 @@ foreach ($User in $Users) {
             Write-Host "$UPN already exists in $Group" -ForeGroundColor Yellow
         }
         else {
-            # Add user to group
-            Add-ADGroupMember -Identity $Group -Members $ADUser.SamAccountName
+            # Add user to group. The WhatIf statment outputs the changes but doens't execute
+            Add-ADGroupMember -Identity $Group -Members $ADUser.SamAccountName #-WhatIf
             Write-Host "Added $UPN to $Group" -ForeGroundColor Green
         }
     }

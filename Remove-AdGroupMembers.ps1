@@ -1,11 +1,11 @@
 # Start transcript
-Start-Transcript -Path C:\Scripts\Remove-ADUsers.log -Append
+Start-Transcript -Path C:\Scripts\OutputFiles\Remove-ADUsers.log -Append
 
 # Import AD Module
 Import-Module ActiveDirectory
 
 # Import the data from CSV file and assign it to variable
-$Users = Import-Csv "C:\Scripts\Add-ADUsersToGroup.csv"
+$Users = Import-Csv "C:\Scripts\OutputFiles\Remove-ADUsersToGroup.csv"
 
 # Specify target group where the users will be removed from
 # You can add the distinguishedName of the group. For example: CN=Pilot,OU=Groups,OU=Company,DC=exoip,DC=local
@@ -13,10 +13,10 @@ $Group = "SSO_AdobeAcrobatStandard"
 
 foreach ($User in $Users) {
     # Retrieve UPN
-    $UPN = $User.UserPrincipalName
+    $UPN = $User.SamAccountName
 
     # Retrieve UPN related SamAccountName
-    $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Select-Object SamAccountName
+    $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select-Object SamAccountName
     
     # User from CSV not in AD
     if ($ADUser -eq $null) {
@@ -29,8 +29,8 @@ foreach ($User in $Users) {
         # User member of group
         if ($ExistingGroups.Name -eq $Group) {
 
-            # Remove user from group
-            Remove-ADGroupMember -Identity $Group -Members $ADUser.SamAccountName -Confirm:$false -WhatIf
+            # Remove user from group. The WhatIf statment outputs the changes but doens't execute
+            Remove-ADGroupMember -Identity $Group -Members $ADUser.SamAccountName -Confirm:$false #-WhatIf
             Write-Host "Removed $UPN from $Group" -ForeGroundColor Green
         }
         else {

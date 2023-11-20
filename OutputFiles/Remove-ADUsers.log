@@ -1,6 +1,6 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231107105418
+Start time: 20231116113418
 Username: FLUSHINGSAVINGS\bchucda
 RunAs User: FLUSHINGSAVINGS\bchucda
 Configuration Name: 
@@ -10,8 +10,8 @@ Copyright (c) Microsoft Corporation.
 
 https://aka.ms/vscode-powershell
 Type 'help' to get help.
-" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1698679053-bcb83184-b488-46e7-8ee1-ffd25f5ff88b1698679048741\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-8968-974651.json' -FeatureFlags @() 
-Process ID: 4168
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
 PSVersion: 5.1.22621.2506
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
@@ -21,50 +21,221 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
-Transcript started, output file is C:\Temp\Remove-ADUsers.log
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed AGoess@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed AJin@flushingbank.com from SSO_AdobeAcrobatStandard
-FKorzekwinski@flushingbank.com does not exist in AD
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed RLauria@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed TLynn@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed CMea@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed MMiliano@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed PMurray@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed CPennino@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed MPortnoy@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed ASavastano@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed ESilva@flushingbank.com from SSO_AdobeAcrobatStandard
-MSingh@flushingbank.com does not exist in SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed MSoffer@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed ASompolou@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed WStumpf@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed NTavares@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed STaylor@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed RWhite@flushingbank.com from SSO_AdobeAcrobatStandard
+Transcript started, output file is C:\Scripts\Remove-ADUsers.log
+PS>TerminatingError(Import-Csv): "Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'."
+Import-Csv : Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'.
+At C:\Scripts\Remove-AdGroupMembers.ps1:8 char:10
++ $Users = Import-Csv "C:\Scripts\Add-ADUsersToGroup.csv"
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Csv], FileNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportCsvCommand
+Import-Csv : Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'.
+At C:\Scripts\Remove-AdGroupMembers.ps1:8 char:10
++ $Users = Import-Csv "C:\Scripts\Add-ADUsersToGroup.csv"
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Csv], FileNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportCsv
+   Command
+
+>> TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
 **********************
 Windows PowerShell transcript end
-End time: 20231107105441
+End time: 20231116113421
 **********************
 **********************
 Windows PowerShell transcript start
-Start time: 20231107110045
+Start time: 20231116113431
 Username: FLUSHINGSAVINGS\bchucda
 RunAs User: FLUSHINGSAVINGS\bchucda
 Configuration Name: 
@@ -74,8 +245,8 @@ Copyright (c) Microsoft Corporation.
 
 https://aka.ms/vscode-powershell
 Type 'help' to get help.
-" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1698679053-bcb83184-b488-46e7-8ee1-ffd25f5ff88b1698679048741\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-8968-974651.json' -FeatureFlags @() 
-Process ID: 4168
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
 PSVersion: 5.1.22621.2506
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
@@ -85,26 +256,2434 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
-Transcript started, output file is C:\Temp\Remove-ADUsers.log
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed PAkosah@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed PDolan@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed DGist@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed DLee@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed PMarshall@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed MMeihoefer@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed GMorse@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed MPollis@flushingbank.com from SSO_AdobeAcrobatStandard
-What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
-Removed AWalia@flushingbank.com from SSO_AdobeAcrobatStandard
+Transcript started, output file is C:\Scripts\Remove-ADUsers.log
+PS>TerminatingError(Import-Csv): "Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'."
+Import-Csv : Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'.
+At C:\Scripts\Remove-AdGroupMembers.ps1:8 char:10
++ $Users = Import-Csv "C:\Scripts\Add-ADUsersToGroup.csv"
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Csv], FileNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportCsvCommand
+Import-Csv : Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'.
+At C:\Scripts\Remove-AdGroupMembers.ps1:8 char:10
++ $Users = Import-Csv "C:\Scripts\Add-ADUsersToGroup.csv"
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Csv], FileNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportCsv
+   Command
+
+>> TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "DisplayName -eq '$DName'" | Select- ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
 **********************
 Windows PowerShell transcript end
-End time: 20231107110100
+End time: 20231116113433
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231116113902
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\Remove-ADUsers.log
+PS>TerminatingError(Import-Csv): "Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'."
+Import-Csv : Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'.
+At C:\Scripts\Remove-AdGroupMembers.ps1:8 char:10
++ $Users = Import-Csv "C:\Scripts\Add-ADUsersToGroup.csv"
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Csv], FileNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportCsvCommand
+Import-Csv : Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'.
+At C:\Scripts\Remove-AdGroupMembers.ps1:8 char:10
++ $Users = Import-Csv "C:\Scripts\Add-ADUsersToGroup.csv"
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Csv], FileNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportCsv
+   Command
+
+>> TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++ ...   $ADUser = Get-ADUser -Filter "UserPrincipalName -eq '$UPN'" | Selec ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+**********************
+Windows PowerShell transcript end
+End time: 20231116113903
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231116113930
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\Remove-ADUsers.log
+PS>TerminatingError(Import-Csv): "Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'."
+Import-Csv : Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'.
+At C:\Scripts\Remove-AdGroupMembers.ps1:8 char:10
++ $Users = Import-Csv "C:\Scripts\Add-ADUsersToGroup.csv"
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Csv], FileNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportCsvCommand
+Import-Csv : Could not find file 'C:\Scripts\Add-ADUsersToGroup.csv'.
+At C:\Scripts\Remove-AdGroupMembers.ps1:8 char:10
++ $Users = Import-Csv "C:\Scripts\Add-ADUsersToGroup.csv"
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Csv], FileNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportCsv
+   Command
+
+>> TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+PS>TerminatingError(Get-ADUser): "The search filter cannot be recognized"
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : The search filter cannot be recognized
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8254,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADUser
+
+ does not exist in AD
+**********************
+Windows PowerShell transcript end
+End time: 20231116113932
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231116114542
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\Remove-ADUsers.log
+GAndrade does not exist in SSO_AdobeAcrobatStandard
+ABaldeo does not exist in SSO_AdobeAcrobatStandard
+Nballato does not exist in SSO_AdobeAcrobatStandard
+tbrown does not exist in SSO_AdobeAcrobatStandard
+tbuonaiuto does not exist in SSO_AdobeAcrobatStandard
+kchi does not exist in SSO_AdobeAcrobatStandard
+GDaitsis does not exist in SSO_AdobeAcrobatStandard
+adomillmaltese does not exist in SSO_AdobeAcrobatStandard
+JFeniello does not exist in SSO_AdobeAcrobatStandard
+rfleishman does not exist in SSO_AdobeAcrobatStandard
+AFORMICA does not exist in SSO_AdobeAcrobatStandard
+fgregorio does not exist in SSO_AdobeAcrobatStandard
+PGrier does not exist in SSO_AdobeAcrobatStandard
+DJoseph does not exist in SSO_AdobeAcrobatStandard
+MKaiser does not exist in SSO_AdobeAcrobatStandard
+MLaPlaca does not exist in SSO_AdobeAcrobatStandard
+glaub does not exist in SSO_AdobeAcrobatStandard
+HLewis does not exist in SSO_AdobeAcrobatStandard
+dliang does not exist in SSO_AdobeAcrobatStandard
+GLiotta does not exist in SSO_AdobeAcrobatStandard
+CMarcelo does not exist in SSO_AdobeAcrobatStandard
+mhartmann does not exist in SSO_AdobeAcrobatStandard
+Amenniti does not exist in SSO_AdobeAcrobatStandard
+jmustapich does not exist in SSO_AdobeAcrobatStandard
+ANese does not exist in SSO_AdobeAcrobatStandard
+YNuriyev does not exist in SSO_AdobeAcrobatStandard
+JOrelli does not exist in SSO_AdobeAcrobatStandard
+sowens does not exist in SSO_AdobeAcrobatStandard
+pmezeul does not exist in SSO_AdobeAcrobatStandard
+DPinou does not exist in SSO_AdobeAcrobatStandard
+KPotter does not exist in SSO_AdobeAcrobatStandard
+CRamrup does not exist in SSO_AdobeAcrobatStandard
+MReilly does not exist in SSO_AdobeAcrobatStandard
+ASPATHIS does not exist in SSO_AdobeAcrobatStandard
+CSteunenberg does not exist in SSO_AdobeAcrobatStandard
+ptiffany does not exist in SSO_AdobeAcrobatStandard
+mtodd2 does not exist in SSO_AdobeAcrobatStandard
+SValdaro does not exist in SSO_AdobeAcrobatStandard
+GWilliams does not exist in SSO_AdobeAcrobatStandard
+mwitter does not exist in SSO_AdobeAcrobatStandard
+KWong does not exist in SSO_AdobeAcrobatStandard
+CYepez does not exist in SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed AGoess from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed Ajin from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed FKORZEKW from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed rlauria from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed TLynn from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed CMea from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed MMiliano from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed PMurray from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed CPennino from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed MPortnoy from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed ASavastano from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed ESilva from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed MSingh1 from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed msoffer from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed asompolou from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed WStumpf from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed NTavares from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed STaylor from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed RWhite from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed ssadlis from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed JTellekamp from SSO_AdobeAcrobatStandard
+**********************
+Windows PowerShell transcript end
+End time: 20231116114701
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231116114851
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\Remove-ADUsers.log
+GAndrade does not exist in SSO_AdobeAcrobatStandard
+ABaldeo does not exist in SSO_AdobeAcrobatStandard
+Nballato does not exist in SSO_AdobeAcrobatStandard
+tbrown does not exist in SSO_AdobeAcrobatStandard
+tbuonaiuto does not exist in SSO_AdobeAcrobatStandard
+kchi does not exist in SSO_AdobeAcrobatStandard
+GDaitsis does not exist in SSO_AdobeAcrobatStandard
+adomillmaltese does not exist in SSO_AdobeAcrobatStandard
+JFeniello does not exist in SSO_AdobeAcrobatStandard
+rfleishman does not exist in SSO_AdobeAcrobatStandard
+AFORMICA does not exist in SSO_AdobeAcrobatStandard
+fgregorio does not exist in SSO_AdobeAcrobatStandard
+PGrier does not exist in SSO_AdobeAcrobatStandard
+DJoseph does not exist in SSO_AdobeAcrobatStandard
+MKaiser does not exist in SSO_AdobeAcrobatStandard
+MLaPlaca does not exist in SSO_AdobeAcrobatStandard
+glaub does not exist in SSO_AdobeAcrobatStandard
+HLewis does not exist in SSO_AdobeAcrobatStandard
+dliang does not exist in SSO_AdobeAcrobatStandard
+GLiotta does not exist in SSO_AdobeAcrobatStandard
+CMarcelo does not exist in SSO_AdobeAcrobatStandard
+mhartmann does not exist in SSO_AdobeAcrobatStandard
+Amenniti does not exist in SSO_AdobeAcrobatStandard
+jmustapich does not exist in SSO_AdobeAcrobatStandard
+ANese does not exist in SSO_AdobeAcrobatStandard
+YNuriyev does not exist in SSO_AdobeAcrobatStandard
+JOrelli does not exist in SSO_AdobeAcrobatStandard
+sowens does not exist in SSO_AdobeAcrobatStandard
+pmezeul does not exist in SSO_AdobeAcrobatStandard
+DPinou does not exist in SSO_AdobeAcrobatStandard
+KPotter does not exist in SSO_AdobeAcrobatStandard
+CRamrup does not exist in SSO_AdobeAcrobatStandard
+MReilly does not exist in SSO_AdobeAcrobatStandard
+ASPATHIS does not exist in SSO_AdobeAcrobatStandard
+CSteunenberg does not exist in SSO_AdobeAcrobatStandard
+ptiffany does not exist in SSO_AdobeAcrobatStandard
+mtodd2 does not exist in SSO_AdobeAcrobatStandard
+SValdaro does not exist in SSO_AdobeAcrobatStandard
+GWilliams does not exist in SSO_AdobeAcrobatStandard
+mwitter does not exist in SSO_AdobeAcrobatStandard
+KWong does not exist in SSO_AdobeAcrobatStandard
+CYepez does not exist in SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed AGoess from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed Ajin from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed FKORZEKW from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed rlauria from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed TLynn from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed CMea from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed MMiliano from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed PMurray from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed CPennino from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed MPortnoy from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed ASavastano from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed ESilva from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed MSingh1 from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed msoffer from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed asompolou from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed WStumpf from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed NTavares from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed STaylor from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed RWhite from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed ssadlis from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed JTellekamp from SSO_AdobeAcrobatStandard
+**********************
+Windows PowerShell transcript end
+End time: 20231116115002
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231116115939
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\Remove-ADUsers.log
+IAievoli does not exist in SSO_AdobeAcrobatPro
+AAkturk does not exist in SSO_AdobeAcrobatPro
+taletrakis does not exist in SSO_AdobeAcrobatPro
+eambrosio does not exist in SSO_AdobeAcrobatPro
+CAnello does not exist in SSO_AdobeAcrobatPro
+NAngioletti does not exist in SSO_AdobeAcrobatPro
+EArana does not exist in SSO_AdobeAcrobatPro
+SBarber does not exist in SSO_AdobeAcrobatPro
+SBarber does not exist in SSO_AdobeAcrobatPro
+MBARNEY does not exist in SSO_AdobeAcrobatPro
+JBarraza does not exist in SSO_AdobeAcrobatPro
+BBateman does not exist in SSO_AdobeAcrobatPro
+NBennett does not exist in SSO_AdobeAcrobatPro
+DBezak does not exist in SSO_AdobeAcrobatPro
+mbianco does not exist in SSO_AdobeAcrobatPro
+mbingold does not exist in SSO_AdobeAcrobatPro
+lbiondo does not exist in SSO_AdobeAcrobatPro
+MBlake does not exist in SSO_AdobeAcrobatPro
+LBODANZA does not exist in SSO_AdobeAcrobatPro
+abozzolo does not exist in SSO_AdobeAcrobatPro
+Abrewer does not exist in SSO_AdobeAcrobatPro
+aburrowes does not exist in SSO_AdobeAcrobatPro
+ICabrera does not exist in SSO_AdobeAcrobatPro
+MCamara does not exist in SSO_AdobeAcrobatPro
+ACampisi does not exist in SSO_AdobeAcrobatPro
+ACampisi does not exist in SSO_AdobeAcrobatPro
+ECarroll does not exist in SSO_AdobeAcrobatPro
+KCarson does not exist in SSO_AdobeAcrobatPro
+CColorundo does not exist in SSO_AdobeAcrobatPro
+DCastelluccio does not exist in SSO_AdobeAcrobatPro
+MChan does not exist in SSO_AdobeAcrobatPro
+WChen1 does not exist in SSO_AdobeAcrobatPro
+DChris does not exist in SSO_AdobeAcrobatPro
+AChung does not exist in SSO_AdobeAcrobatPro
+Mpappas does not exist in SSO_AdobeAcrobatPro
+tclemens does not exist in SSO_AdobeAcrobatPro
+SCodispodo does not exist in SSO_AdobeAcrobatPro
+VCorasaniti does not exist in SSO_AdobeAcrobatPro
+DCorcoran does not exist in SSO_AdobeAcrobatPro
+LCornell does not exist in SSO_AdobeAcrobatPro
+JCosta does not exist in SSO_AdobeAcrobatPro
+KCostas does not exist in SSO_AdobeAcrobatPro
+mcruz does not exist in SSO_AdobeAcrobatPro
+MCubrah does not exist in SSO_AdobeAcrobatPro
+TCui does not exist in SSO_AdobeAcrobatPro
+scullen does not exist in SSO_AdobeAcrobatPro
+TCullen does not exist in SSO_AdobeAcrobatPro
+lDAntone does not exist in SSO_AdobeAcrobatPro
+tdavidson does not exist in SSO_AdobeAcrobatPro
+NDelicce does not exist in SSO_AdobeAcrobatPro
+RDellegar does not exist in SSO_AdobeAcrobatPro
+JDIAZ does not exist in SSO_AdobeAcrobatPro
+SDiaz does not exist in SSO_AdobeAcrobatPro
+SDiGeronimo does not exist in SSO_AdobeAcrobatPro
+adilone does not exist in SSO_AdobeAcrobatPro
+jdimino does not exist in SSO_AdobeAcrobatPro
+MDiStasio does not exist in SSO_AdobeAcrobatPro
+sdouglas does not exist in SSO_AdobeAcrobatPro
+RDzwlewicz does not exist in SSO_AdobeAcrobatPro
+HEliach does not exist in SSO_AdobeAcrobatPro
+GEng does not exist in SSO_AdobeAcrobatPro
+reng does not exist in SSO_AdobeAcrobatPro
+TFagan does not exist in SSO_AdobeAcrobatPro
+DFasolino does not exist in SSO_AdobeAcrobatPro
+KFinnegan does not exist in SSO_AdobeAcrobatPro
+CFisk does not exist in SSO_AdobeAcrobatPro
+dfluddy does not exist in SSO_AdobeAcrobatPro
+ARamsamooj does not exist in SSO_AdobeAcrobatPro
+MGarcia does not exist in SSO_AdobeAcrobatPro
+mgarcia3 does not exist in SSO_AdobeAcrobatPro
+MGeevarghese does not exist in SSO_AdobeAcrobatPro
+Tgino does not exist in SSO_AdobeAcrobatPro
+egonzalez does not exist in SSO_AdobeAcrobatPro
+FGraham-Pearson does not exist in SSO_AdobeAcrobatPro
+SGreen does not exist in SSO_AdobeAcrobatPro
+agreene does not exist in SSO_AdobeAcrobatPro
+lyam does not exist in SSO_AdobeAcrobatPro
+JRomanelli does not exist in SSO_AdobeAcrobatPro
+IHagi does not exist in SSO_AdobeAcrobatPro
+LHanze does not exist in SSO_AdobeAcrobatPro
+JHarris does not exist in SSO_AdobeAcrobatPro
+AHarvey does not exist in SSO_AdobeAcrobatPro
+CHines does not exist in SSO_AdobeAcrobatPro
+Aho does not exist in SSO_AdobeAcrobatPro
+KHolland does not exist in SSO_AdobeAcrobatPro
+JHsieh1 does not exist in SSO_AdobeAcrobatPro
+KHuang does not exist in SSO_AdobeAcrobatPro
+jjacovatos does not exist in SSO_AdobeAcrobatPro
+jJenkins does not exist in SSO_AdobeAcrobatPro
+jclaxton does not exist in SSO_AdobeAcrobatPro
+EJurakan does not exist in SSO_AdobeAcrobatPro
+TKalogiannis does not exist in SSO_AdobeAcrobatPro
+mkaur does not exist in SSO_AdobeAcrobatPro
+CKeyes does not exist in SSO_AdobeAcrobatPro
+AKhan does not exist in SSO_AdobeAcrobatPro
+CKim does not exist in SSO_AdobeAcrobatPro
+JKIM does not exist in SSO_AdobeAcrobatPro
+SKinzonzi does not exist in SSO_AdobeAcrobatPro
+SKo does not exist in SSO_AdobeAcrobatPro
+PKosambia does not exist in SSO_AdobeAcrobatPro
+JKruger does not exist in SSO_AdobeAcrobatPro
+Dblomquist does not exist in SSO_AdobeAcrobatPro
+jkumpas does not exist in SSO_AdobeAcrobatPro
+ckwong does not exist in SSO_AdobeAcrobatPro
+mlaird does not exist in SSO_AdobeAcrobatPro
+slanglois does not exist in SSO_AdobeAcrobatPro
+Clee does not exist in SSO_AdobeAcrobatPro
+ylevintov does not exist in SSO_AdobeAcrobatPro
+SLiang does not exist in SSO_AdobeAcrobatPro
+YLu does not exist in SSO_AdobeAcrobatPro
+PMackewice does not exist in SSO_AdobeAcrobatPro
+SMadison does not exist in SSO_AdobeAcrobatPro
+CMagrum does not exist in SSO_AdobeAcrobatPro
+JMAIORAN does not exist in SSO_AdobeAcrobatPro
+Dmangan does not exist in SSO_AdobeAcrobatPro
+RManzi does not exist in SSO_AdobeAcrobatPro
+TMaramonte does not exist in SSO_AdobeAcrobatPro
+JMarte does not exist in SSO_AdobeAcrobatPro
+MMASI does not exist in SSO_AdobeAcrobatPro
+SMathura does not exist in SSO_AdobeAcrobatPro
+DMcClintock does not exist in SSO_AdobeAcrobatPro
+MMerritt does not exist in SSO_AdobeAcrobatPro
+JMeyer does not exist in SSO_AdobeAcrobatPro
+NMildon does not exist in SSO_AdobeAcrobatPro
+JMillard does not exist in SSO_AdobeAcrobatPro
+RMiller does not exist in SSO_AdobeAcrobatPro
+JMione does not exist in SSO_AdobeAcrobatPro
+nmohammed does not exist in SSO_AdobeAcrobatPro
+SMolfetta does not exist in SSO_AdobeAcrobatPro
+lmoran does not exist in SSO_AdobeAcrobatPro
+WMunoz does not exist in SSO_AdobeAcrobatPro
+GMurolo does not exist in SSO_AdobeAcrobatPro
+MNedder does not exist in SSO_AdobeAcrobatPro
+Eneofitidis does not exist in SSO_AdobeAcrobatPro
+SNezhad does not exist in SSO_AdobeAcrobatPro
+LNoto does not exist in SSO_AdobeAcrobatPro
+MNugent does not exist in SSO_AdobeAcrobatPro
+joconnor does not exist in SSO_AdobeAcrobatPro
+jodom does not exist in SSO_AdobeAcrobatPro
+COHara does not exist in SSO_AdobeAcrobatPro
+ROk does not exist in SSO_AdobeAcrobatPro
+SParrish does not exist in SSO_AdobeAcrobatPro
+TPerrotta does not exist in SSO_AdobeAcrobatPro
+JPerry-Krucenski does not exist in SSO_AdobeAcrobatPro
+APersaud does not exist in SSO_AdobeAcrobatPro
+splotkin does not exist in SSO_AdobeAcrobatPro
+JPomerantz does not exist in SSO_AdobeAcrobatPro
+JPompei does not exist in SSO_AdobeAcrobatPro
+DProphete does not exist in SSO_AdobeAcrobatPro
+treed does not exist in SSO_AdobeAcrobatPro
+cregan does not exist in SSO_AdobeAcrobatPro
+CReynolds does not exist in SSO_AdobeAcrobatPro
+CRiccardi does not exist in SSO_AdobeAcrobatPro
+jroche does not exist in SSO_AdobeAcrobatPro
+GRodriguez does not exist in SSO_AdobeAcrobatPro
+lrodriguez does not exist in SSO_AdobeAcrobatPro
+SRokhsar does not exist in SSO_AdobeAcrobatPro
+SRomagnolo does not exist in SSO_AdobeAcrobatPro
+drusso does not exist in SSO_AdobeAcrobatPro
+kfenton does not exist in SSO_AdobeAcrobatPro
+msalerno does not exist in SSO_AdobeAcrobatPro
+TSalvatore does not exist in SSO_AdobeAcrobatPro
+NSantos does not exist in SSO_AdobeAcrobatPro
+KSchad does not exist in SSO_AdobeAcrobatPro
+RSchepis does not exist in SSO_AdobeAcrobatPro
+DSchwartz does not exist in SSO_AdobeAcrobatPro
+MSellitto does not exist in SSO_AdobeAcrobatPro
+NShatursun does not exist in SSO_AdobeAcrobatPro
+RSheridan does not exist in SSO_AdobeAcrobatPro
+JShkreli does not exist in SSO_AdobeAcrobatPro
+VSilvagnoli does not exist in SSO_AdobeAcrobatPro
+SSolano does not exist in SSO_AdobeAcrobatPro
+MSolorzano-Navarro does not exist in SSO_AdobeAcrobatPro
+cstewart does not exist in SSO_AdobeAcrobatPro
+rstewart does not exist in SSO_AdobeAcrobatPro
+jstuart does not exist in SSO_AdobeAcrobatPro
+CTamney does not exist in SSO_AdobeAcrobatPro
+GTetro does not exist in SSO_AdobeAcrobatPro
+kthilman does not exist in SSO_AdobeAcrobatPro
+lthompson does not exist in SSO_AdobeAcrobatPro
+jticona does not exist in SSO_AdobeAcrobatPro
+MTomek does not exist in SSO_AdobeAcrobatPro
+KTorres does not exist in SSO_AdobeAcrobatPro
+YTsai does not exist in SSO_AdobeAcrobatPro
+Cturner does not exist in SSO_AdobeAcrobatPro
+kunangst does not exist in SSO_AdobeAcrobatPro
+DVillacres does not exist in SSO_AdobeAcrobatPro
+mwalsh does not exist in SSO_AdobeAcrobatPro
+LXu does not exist in SSO_AdobeAcrobatPro
+HYi does not exist in SSO_AdobeAcrobatPro
+JYu1 does not exist in SSO_AdobeAcrobatPro
+jyu does not exist in SSO_AdobeAcrobatPro
+EZekraus does not exist in SSO_AdobeAcrobatPro
+szhitelzeyf does not exist in SSO_AdobeAcrobatPro
+sbhatia does not exist in SSO_AdobeAcrobatPro
+MCarpio does not exist in SSO_AdobeAcrobatPro
+kcasavecchia does not exist in SSO_AdobeAcrobatPro
+LChen does not exist in SSO_AdobeAcrobatPro
+KClassie does not exist in SSO_AdobeAcrobatPro
+JCustance does not exist in SSO_AdobeAcrobatPro
+IDimopoulos does not exist in SSO_AdobeAcrobatPro
+DFarrell does not exist in SSO_AdobeAcrobatPro
+PFasano does not exist in SSO_AdobeAcrobatPro
+MGenova does not exist in SSO_AdobeAcrobatPro
+ehung does not exist in SSO_AdobeAcrobatPro
+JKoszalka does not exist in SSO_AdobeAcrobatPro
+RLeshaw does not exist in SSO_AdobeAcrobatPro
+CLiuluk does not exist in SSO_AdobeAcrobatPro
+YLoor does not exist in SSO_AdobeAcrobatPro
+SLukose-Khan does not exist in SSO_AdobeAcrobatPro
+BMcRae does not exist in SSO_AdobeAcrobatPro
+JMendez does not exist in SSO_AdobeAcrobatPro
+smohan does not exist in SSO_AdobeAcrobatPro
+APark does not exist in SSO_AdobeAcrobatPro
+VScalise does not exist in SSO_AdobeAcrobatPro
+ATom does not exist in SSO_AdobeAcrobatPro
+hwang does not exist in SSO_AdobeAcrobatPro
+kwijaya does not exist in SSO_AdobeAcrobatPro
+KWinter does not exist in SSO_AdobeAcrobatPro
+KXue does not exist in SSO_AdobeAcrobatPro
+RYoung does not exist in SSO_AdobeAcrobatPro
+SZeltser does not exist in SSO_AdobeAcrobatPro
+**********************
+Windows PowerShell transcript end
+End time: 20231116120336
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231116120625
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+RBarber does not exist in SSO_AdobeAcrobatPro
+JZhou does not exist in SSO_AdobeAcrobatPro
+Pakosah does not exist in SSO_AdobeAcrobatPro
+pdolan does not exist in SSO_AdobeAcrobatPro
+DGist does not exist in SSO_AdobeAcrobatPro
+DLee does not exist in SSO_AdobeAcrobatPro
+pmarshall does not exist in SSO_AdobeAcrobatPro
+MMeihoefer does not exist in SSO_AdobeAcrobatPro
+gmorse does not exist in SSO_AdobeAcrobatPro
+MPollis does not exist in SSO_AdobeAcrobatPro
+AWalia does not exist in SSO_AdobeAcrobatPro
+**********************
+Windows PowerShell transcript end
+End time: 20231116120637
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231116120645
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed RBarber from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed JZhou from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed Pakosah from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed pdolan from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed DGist from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed DLee from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed pmarshall from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed MMeihoefer from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed gmorse from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed MPollis from SSO_AdobeAcrobatStandard
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed AWalia from SSO_AdobeAcrobatStandard
+**********************
+Windows PowerShell transcript end
+End time: 20231116120656
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231116132518
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+What if: Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+Removed Bchuc from SSO_AdobeAcrobatStandard
+**********************
+Windows PowerShell transcript end
+End time: 20231116132520
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231116132621
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+Confirm
+Are you sure you want to perform this action?
+Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+Y
+Removed Bchuc from SSO_AdobeAcrobatStandard
+**********************
+Windows PowerShell transcript end
+End time: 20231116132628
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231116133809
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700003728-7e7b5b9f-aa06-4910-8890-d62771d2e1081700002887750\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16136-540051.json' -FeatureFlags @() 
+Process ID: 10840
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+Confirm
+Are you sure you want to perform this action?
+Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+A
+Removed TWatts from SSO_AdobeAcrobatStandard
+Confirm
+Are you sure you want to perform this action?
+Performing the operation "Set" on target "CN=SSO_AdobeAcrobatStandard,OU=SSO,OU=Security Groups,OU=FSB,DC=flushingsavings,DC=com".
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+Y
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;E;. 'C:\x5cScripts\x5cRemove-AdGroupMembers.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>. 'C:\Scripts\Remove-AdGroupMembers.ps1'
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+TWatts does not exist in SSO_AdobeAcrobatStandard
+MYusuf does not exist in SSO_AdobeAcrobatStandard
+Removed DCai from SSO_AdobeAcrobatStandard
+Removed ARios from SSO_AdobeAcrobatStandard
+Removed DCastelluccio from SSO_AdobeAcrobatStandard
+Removed KSchad from SSO_AdobeAcrobatStandard
+Removed JCosta from SSO_AdobeAcrobatStandard
+Removed KCarson from SSO_AdobeAcrobatStandard
+Removed CMagrum from SSO_AdobeAcrobatStandard
+Removed JBarraza from SSO_AdobeAcrobatStandard
+Removed JShkreli from SSO_AdobeAcrobatStandard
+Removed JKruger from SSO_AdobeAcrobatStandard
+Removed WChen1 from SSO_AdobeAcrobatStandard
+Removed SZeltser from SSO_AdobeAcrobatStandard
+Removed KTorres from SSO_AdobeAcrobatStandard
+Removed KXue from SSO_AdobeAcrobatStandard
+Removed RLeshaw from SSO_AdobeAcrobatStandard
+Removed kthilman from SSO_AdobeAcrobatStandard
+Removed LHanze from SSO_AdobeAcrobatStandard
+Removed KHuang from SSO_AdobeAcrobatStandard
+Removed JMarte from SSO_AdobeAcrobatStandard
+Removed SGreen from SSO_AdobeAcrobatStandard
+Removed RDzwlewicz from SSO_AdobeAcrobatStandard
+Removed KBrando from SSO_AdobeAcrobatStandard
+Removed LBlumenthal from SSO_AdobeAcrobatStandard
+Removed DSchwartz from SSO_AdobeAcrobatStandard
+Removed MMerritt from SSO_AdobeAcrobatStandard
+Removed SDiGeronimo from SSO_AdobeAcrobatStandard
+Removed NMildon from SSO_AdobeAcrobatStandard
+Removed TPerrotta from SSO_AdobeAcrobatStandard
+Removed MGeevarghese from SSO_AdobeAcrobatStandard
+Removed JMendez from SSO_AdobeAcrobatStandard
+Removed DPinou from SSO_AdobeAcrobatStandard
+Removed SLiang from SSO_AdobeAcrobatStandard
+Removed JHsieh1 from SSO_AdobeAcrobatStandard
+Removed TFagan from SSO_AdobeAcrobatStandard
+Removed TMcLain from SSO_AdobeAcrobatStandard
+Removed SKo from SSO_AdobeAcrobatStandard
+Removed CKim from SSO_AdobeAcrobatStandard
+Removed CHines from SSO_AdobeAcrobatStandard
+Removed SKinzonzi from SSO_AdobeAcrobatStandard
+Removed AKhan from SSO_AdobeAcrobatStandard
+Removed IHagi from SSO_AdobeAcrobatStandard
+Removed TSalvatore from SSO_AdobeAcrobatStandard
+Removed FGraham-Pearson from SSO_AdobeAcrobatStandard
+Removed YLoor from SSO_AdobeAcrobatStandard
+Removed SNezhad from SSO_AdobeAcrobatStandard
+Removed rstewart from SSO_AdobeAcrobatStandard
+Removed IAievoli from SSO_AdobeAcrobatStandard
+Removed JMillard from SSO_AdobeAcrobatStandard
+Removed DMcClintock from SSO_AdobeAcrobatStandard
+Removed DBezak from SSO_AdobeAcrobatStandard
+Removed SBisnauth from SSO_AdobeAcrobatStandard
+Removed SDiaz from SSO_AdobeAcrobatStandard
+Removed RDellegar from SSO_AdobeAcrobatStandard
+Removed JHarris from SSO_AdobeAcrobatStandard
+Removed CReynolds from SSO_AdobeAcrobatStandard
+Removed RMiller from SSO_AdobeAcrobatStandard
+Removed SCohen from SSO_AdobeAcrobatStandard
+Removed BMcRae from SSO_AdobeAcrobatStandard
+Removed NShatursun from SSO_AdobeAcrobatStandard
+Removed ROk from SSO_AdobeAcrobatStandard
+Removed JYu1 from SSO_AdobeAcrobatStandard
+Removed RYoung from SSO_AdobeAcrobatStandard
+Removed PKosambia from SSO_AdobeAcrobatStandard
+Removed KFinnegan from SSO_AdobeAcrobatStandard
+Removed TMaramonte from SSO_AdobeAcrobatStandard
+Removed KWinter from SSO_AdobeAcrobatStandard
+Removed SParrish from SSO_AdobeAcrobatStandard
+Removed MCubrah from SSO_AdobeAcrobatStandard
+Removed DProphete from SSO_AdobeAcrobatStandard
+Removed SMolfetta from SSO_AdobeAcrobatStandard
+Removed HYi from SSO_AdobeAcrobatStandard
+Removed PMackewice from SSO_AdobeAcrobatStandard
+Removed AAkturk from SSO_AdobeAcrobatStandard
+Removed SCodispodo from SSO_AdobeAcrobatStandard
+Removed GRodriguez from SSO_AdobeAcrobatStandard
+Removed MTomek from SSO_AdobeAcrobatStandard
+Removed PFasano from SSO_AdobeAcrobatStandard
+Removed SSolano from SSO_AdobeAcrobatStandard
+Removed CKeyes from SSO_AdobeAcrobatStandard
+Removed KCostas from SSO_AdobeAcrobatStandard
+Removed JRomanelli from SSO_AdobeAcrobatStandard
+Removed GTetro from SSO_AdobeAcrobatStandard
+Removed NAngioletti from SSO_AdobeAcrobatStandard
+Removed SBarber from SSO_AdobeAcrobatStandard
+Removed mgarcia3 from SSO_AdobeAcrobatStandard
+Removed JPomerantz from SSO_AdobeAcrobatStandard
+Removed MSolorzano-Navarro from SSO_AdobeAcrobatStandard
+Removed KClassie from SSO_AdobeAcrobatStandard
+Removed msalerno from SSO_AdobeAcrobatStandard
+Removed YLu from SSO_AdobeAcrobatStandard
+Removed RSchepis from SSO_AdobeAcrobatStandard
+Removed MCamara from SSO_AdobeAcrobatStandard
+Removed SMadison from SSO_AdobeAcrobatStandard
+Removed VSilvagnoli from SSO_AdobeAcrobatStandard
+Removed RSheridan from SSO_AdobeAcrobatStandard
+Removed MAli from SSO_AdobeAcrobatStandard
+Removed CFisk from SSO_AdobeAcrobatStandard
+Removed JPerry-Krucenski from SSO_AdobeAcrobatStandard
+Removed DFarrell from SSO_AdobeAcrobatStandard
+Removed MBlake from SSO_AdobeAcrobatStandard
+Removed VGiovinco from SSO_AdobeAcrobatStandard
+Removed lmoran from SSO_AdobeAcrobatStandard
+Removed DCorcoran from SSO_AdobeAcrobatStandard
+Removed cstewart from SSO_AdobeAcrobatStandard
+Removed sbhatia from SSO_AdobeAcrobatStandard
+Removed ARamsamooj from SSO_AdobeAcrobatStandard
+Removed TCui from SSO_AdobeAcrobatStandard
+Removed AHarvey from SSO_AdobeAcrobatStandard
+Removed APersaud from SSO_AdobeAcrobatStandard
+Removed APark from SSO_AdobeAcrobatStandard
+Removed YTsai from SSO_AdobeAcrobatStandard
+Removed EArana from SSO_AdobeAcrobatStandard
+Removed LCornell from SSO_AdobeAcrobatStandard
+Removed DChris from SSO_AdobeAcrobatStandard
+Removed egonzalez from SSO_AdobeAcrobatStandard
+Removed glaub from SSO_AdobeAcrobatStandard
+Removed JPompei from SSO_AdobeAcrobatStandard
+Removed RManzi from SSO_AdobeAcrobatStandard
+Removed sdouglas from SSO_AdobeAcrobatStandard
+Removed DVillacres from SSO_AdobeAcrobatStandard
+Removed MNedder from SSO_AdobeAcrobatStandard
+Removed JCustance from SSO_AdobeAcrobatStandard
+Removed reng from SSO_AdobeAcrobatStandard
+Removed MGarcia from SSO_AdobeAcrobatStandard
+Removed SRokhsar from SSO_AdobeAcrobatStandard
+Removed GEng from SSO_AdobeAcrobatStandard
+Removed VCorasaniti from SSO_AdobeAcrobatStandard
+Removed eambrosio from SSO_AdobeAcrobatStandard
+Removed KHolland from SSO_AdobeAcrobatStandard
+Removed GMurolo from SSO_AdobeAcrobatStandard
+Removed TCullen from SSO_AdobeAcrobatStandard
+Removed HEliach from SSO_AdobeAcrobatStandard
+Removed MSellitto from SSO_AdobeAcrobatStandard
+Removed ATom from SSO_AdobeAcrobatStandard
+Removed kunangst from SSO_AdobeAcrobatStandard
+Removed Cturner from SSO_AdobeAcrobatStandard
+Removed MCarpio from SSO_AdobeAcrobatStandard
+Removed lthompson from SSO_AdobeAcrobatStandard
+Removed mkaur from SSO_AdobeAcrobatStandard
+Removed lbiondo from SSO_AdobeAcrobatStandard
+Removed tclemens from SSO_AdobeAcrobatStandard
+Removed WMunoz from SSO_AdobeAcrobatStandard
+Removed NSantos from SSO_AdobeAcrobatStandard
+Removed CRiccardi from SSO_AdobeAcrobatStandard
+Removed MNugent from SSO_AdobeAcrobatStandard
+Removed IDimopoulos from SSO_AdobeAcrobatStandard
+Removed LXu from SSO_AdobeAcrobatStandard
+Removed CLiuluk from SSO_AdobeAcrobatStandard
+Removed jstuart from SSO_AdobeAcrobatStandard
+Removed DFasolino from SSO_AdobeAcrobatStandard
+Removed tdavidson from SSO_AdobeAcrobatStandard
+Removed SCullen from SSO_AdobeAcrobatStandard
+Removed MGenova from SSO_AdobeAcrobatStandard
+Removed SMathura from SSO_AdobeAcrobatStandard
+Removed kcasavecchia from SSO_AdobeAcrobatStandard
+Removed CAnello from SSO_AdobeAcrobatStandard
+Removed COHara from SSO_AdobeAcrobatStandard
+Removed ICabrera from SSO_AdobeAcrobatStandard
+Removed SLukose-Khan from SSO_AdobeAcrobatStandard
+Removed JMeyer from SSO_AdobeAcrobatStandard
+Removed AChung from SSO_AdobeAcrobatStandard
+Removed EJurakan from SSO_AdobeAcrobatStandard
+Removed CTamney from SSO_AdobeAcrobatStandard
+Removed LChen from SSO_AdobeAcrobatStandard
+Removed TKalogiannis from SSO_AdobeAcrobatStandard
+Removed EZekraus from SSO_AdobeAcrobatStandard
+Removed ECarroll from SSO_AdobeAcrobatStandard
+Removed hwang from SSO_AdobeAcrobatStandard
+Removed kwijaya from SSO_AdobeAcrobatStandard
+Removed lrodriguez from SSO_AdobeAcrobatStandard
+Removed mwalsh from SSO_AdobeAcrobatStandard
+Removed Clee from SSO_AdobeAcrobatStandard
+Removed sglass from SSO_AdobeAcrobatStandard
+Removed dfluddy from SSO_AdobeAcrobatStandard
+Removed nmohammed from SSO_AdobeAcrobatStandard
+Removed ckwong from SSO_AdobeAcrobatStandard
+Removed LBODANZA from SSO_AdobeAcrobatStandard
+Removed Aho from SSO_AdobeAcrobatStandard
+Removed JDIAZ from SSO_AdobeAcrobatStandard
+Removed Tgino from SSO_AdobeAcrobatStandard
+Removed slanglois from SSO_AdobeAcrobatStandard
+Removed jodom from SSO_AdobeAcrobatStandard
+Removed JKoszalka from SSO_AdobeAcrobatStandard
+Removed cDeFrancis from SSO_AdobeAcrobatStandard
+Removed smohan from SSO_AdobeAcrobatStandard
+Removed Eneofitidis from SSO_AdobeAcrobatStandard
+Removed ehung from SSO_AdobeAcrobatStandard
+Removed VScalise from SSO_AdobeAcrobatStandard
+Removed mbuccino from SSO_AdobeAcrobatStandard
+Removed jjacovatos from SSO_AdobeAcrobatStandard
+Removed JALONGI from SSO_AdobeAcrobatStandard
+Removed abozzolo from SSO_AdobeAcrobatStandard
+Removed ylevintov from SSO_AdobeAcrobatStandard
+Removed JKIM from SSO_AdobeAcrobatStandard
+Removed Dmangan from SSO_AdobeAcrobatStandard
+Removed joconnor from SSO_AdobeAcrobatStandard
+Removed jticona from SSO_AdobeAcrobatStandard
+Removed taletrakis from SSO_AdobeAcrobatStandard
+Removed MChan from SSO_AdobeAcrobatStandard
+Removed treed from SSO_AdobeAcrobatStandard
+Removed jchung1 from SSO_AdobeAcrobatStandard
+Removed mbingold from SSO_AdobeAcrobatStandard
+Removed jbaolto from SSO_AdobeAcrobatStandard
+Removed ddavis from SSO_AdobeAcrobatStandard
+Removed JMAIORAN from SSO_AdobeAcrobatStandard
+Removed jclaxton from SSO_AdobeAcrobatStandard
+Removed adilone from SSO_AdobeAcrobatStandard
+Removed ACampisi from SSO_AdobeAcrobatStandard
+Removed jkumpas from SSO_AdobeAcrobatStandard
+Removed kfenton from SSO_AdobeAcrobatStandard
+Removed mbianco from SSO_AdobeAcrobatStandard
+Removed agreene from SSO_AdobeAcrobatStandard
+Removed aburrowes from SSO_AdobeAcrobatStandard
+Removed Dblomquist from SSO_AdobeAcrobatStandard
+Removed lyam from SSO_AdobeAcrobatStandard
+Removed Mpappas from SSO_AdobeAcrobatStandard
+Removed jyu from SSO_AdobeAcrobatStandard
+Removed Abrewer from SSO_AdobeAcrobatStandard
+Removed mlaird from SSO_AdobeAcrobatStandard
+Removed Cregan from SSO_AdobeAcrobatStandard
+Removed jroche from SSO_AdobeAcrobatStandard
+Removed drusso from SSO_AdobeAcrobatStandard
+Removed lDAntone from SSO_AdobeAcrobatStandard
+Removed mcruz from SSO_AdobeAcrobatStandard
+Removed mmasi from SSO_AdobeAcrobatStandard
+Removed NDelicce from SSO_AdobeAcrobatStandard
+Removed jdimino from SSO_AdobeAcrobatStandard
+Removed MBARNEY from SSO_AdobeAcrobatStandard
+Removed splotkin from SSO_AdobeAcrobatStandard
+Removed jJenkins from SSO_AdobeAcrobatStandard
+Removed MDiStasio from SSO_AdobeAcrobatStandard
+Removed JMione from SSO_AdobeAcrobatStandard
+Removed BBateman from SSO_AdobeAcrobatStandard
+Removed NBennett from SSO_AdobeAcrobatStandard
+Removed LNoto from SSO_AdobeAcrobatStandard
+Removed CColorundo from SSO_AdobeAcrobatStandard
+Removed SRomagnolo from SSO_AdobeAcrobatStandard
+Removed szhitelzeyf from SSO_AdobeAcrobatStandard
+Transcript stopped, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+]633;E;. 'C:\x5cScripts\x5cRemove-AdGroupMembers.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>. 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\OutputFiles\Add-ADUsers.log
+Added IAievoli to SSO_AdobeAcrobatStandard
+Added AAkturk to SSO_AdobeAcrobatStandard
+Added taletrakis to SSO_AdobeAcrobatStandard
+Added eambrosio to SSO_AdobeAcrobatStandard
+Added CAnello to SSO_AdobeAcrobatStandard
+Added NAngioletti to SSO_AdobeAcrobatStandard
+Added EArana to SSO_AdobeAcrobatStandard
+Added SBarber to SSO_AdobeAcrobatStandard
+SBarber already exists in SSO_AdobeAcrobatStandard
+Added MBARNEY to SSO_AdobeAcrobatStandard
+Added JBarraza to SSO_AdobeAcrobatStandard
+Added BBateman to SSO_AdobeAcrobatStandard
+Added NBennett to SSO_AdobeAcrobatStandard
+Added DBezak to SSO_AdobeAcrobatStandard
+Added mbianco to SSO_AdobeAcrobatStandard
+Added mbingold to SSO_AdobeAcrobatStandard
+Added lbiondo to SSO_AdobeAcrobatStandard
+Added MBlake to SSO_AdobeAcrobatStandard
+Added LBODANZA to SSO_AdobeAcrobatStandard
+Added abozzolo to SSO_AdobeAcrobatStandard
+Added Abrewer to SSO_AdobeAcrobatStandard
+Added aburrowes to SSO_AdobeAcrobatStandard
+Added ICabrera to SSO_AdobeAcrobatStandard
+Added MCamara to SSO_AdobeAcrobatStandard
+Added ACampisi to SSO_AdobeAcrobatStandard
+ACampisi already exists in SSO_AdobeAcrobatStandard
+Added ECarroll to SSO_AdobeAcrobatStandard
+Added KCarson to SSO_AdobeAcrobatStandard
+Added CColorundo to SSO_AdobeAcrobatStandard
+Added DCastelluccio to SSO_AdobeAcrobatStandard
+Added MChan to SSO_AdobeAcrobatStandard
+Added WChen1 to SSO_AdobeAcrobatStandard
+Added DChris to SSO_AdobeAcrobatStandard
+Added AChung to SSO_AdobeAcrobatStandard
+Added Mpappas to SSO_AdobeAcrobatStandard
+Added tclemens to SSO_AdobeAcrobatStandard
+Added SCodispodo to SSO_AdobeAcrobatStandard
+Added VCorasaniti to SSO_AdobeAcrobatStandard
+Added DCorcoran to SSO_AdobeAcrobatStandard
+Added LCornell to SSO_AdobeAcrobatStandard
+Added JCosta to SSO_AdobeAcrobatStandard
+Added KCostas to SSO_AdobeAcrobatStandard
+Added mcruz to SSO_AdobeAcrobatStandard
+Added MCubrah to SSO_AdobeAcrobatStandard
+Added TCui to SSO_AdobeAcrobatStandard
+Added scullen to SSO_AdobeAcrobatStandard
+Added TCullen to SSO_AdobeAcrobatStandard
+Added lDAntone to SSO_AdobeAcrobatStandard
+Added tdavidson to SSO_AdobeAcrobatStandard
+Added NDelicce to SSO_AdobeAcrobatStandard
+Added RDellegar to SSO_AdobeAcrobatStandard
+Added JDIAZ to SSO_AdobeAcrobatStandard
+Added SDiaz to SSO_AdobeAcrobatStandard
+Added SDiGeronimo to SSO_AdobeAcrobatStandard
+Added adilone to SSO_AdobeAcrobatStandard
+Added jdimino to SSO_AdobeAcrobatStandard
+Added MDiStasio to SSO_AdobeAcrobatStandard
+Added sdouglas to SSO_AdobeAcrobatStandard
+Added RDzwlewicz to SSO_AdobeAcrobatStandard
+Added HEliach to SSO_AdobeAcrobatStandard
+Added GEng to SSO_AdobeAcrobatStandard
+Added reng to SSO_AdobeAcrobatStandard
+Added TFagan to SSO_AdobeAcrobatStandard
+Added DFasolino to SSO_AdobeAcrobatStandard
+Added KFinnegan to SSO_AdobeAcrobatStandard
+Added CFisk to SSO_AdobeAcrobatStandard
+Added dfluddy to SSO_AdobeAcrobatStandard
+Added ARamsamooj to SSO_AdobeAcrobatStandard
+Added MGarcia to SSO_AdobeAcrobatStandard
+Added mgarcia3 to SSO_AdobeAcrobatStandard
+Added MGeevarghese to SSO_AdobeAcrobatStandard
+Added Tgino to SSO_AdobeAcrobatStandard
+Added egonzalez to SSO_AdobeAcrobatStandard
+Added FGraham-Pearson to SSO_AdobeAcrobatStandard
+Added SGreen to SSO_AdobeAcrobatStandard
+Added agreene to SSO_AdobeAcrobatStandard
+Added lyam to SSO_AdobeAcrobatStandard
+Added JRomanelli to SSO_AdobeAcrobatStandard
+Added IHagi to SSO_AdobeAcrobatStandard
+Added LHanze to SSO_AdobeAcrobatStandard
+Added JHarris to SSO_AdobeAcrobatStandard
+Added AHarvey to SSO_AdobeAcrobatStandard
+Added CHines to SSO_AdobeAcrobatStandard
+Added Aho to SSO_AdobeAcrobatStandard
+Added KHolland to SSO_AdobeAcrobatStandard
+Added JHsieh1 to SSO_AdobeAcrobatStandard
+Added KHuang to SSO_AdobeAcrobatStandard
+Added jjacovatos to SSO_AdobeAcrobatStandard
+Added jJenkins to SSO_AdobeAcrobatStandard
+Added jclaxton to SSO_AdobeAcrobatStandard
+Added EJurakan to SSO_AdobeAcrobatStandard
+Added TKalogiannis to SSO_AdobeAcrobatStandard
+Added mkaur to SSO_AdobeAcrobatStandard
+Added CKeyes to SSO_AdobeAcrobatStandard
+Added AKhan to SSO_AdobeAcrobatStandard
+Added CKim to SSO_AdobeAcrobatStandard
+Added JKIM to SSO_AdobeAcrobatStandard
+Added SKinzonzi to SSO_AdobeAcrobatStandard
+Added SKo to SSO_AdobeAcrobatStandard
+Added PKosambia to SSO_AdobeAcrobatStandard
+Added JKruger to SSO_AdobeAcrobatStandard
+Added Dblomquist to SSO_AdobeAcrobatStandard
+Added jkumpas to SSO_AdobeAcrobatStandard
+Added ckwong to SSO_AdobeAcrobatStandard
+Added mlaird to SSO_AdobeAcrobatStandard
+Added slanglois to SSO_AdobeAcrobatStandard
+Added Clee to SSO_AdobeAcrobatStandard
+Added ylevintov to SSO_AdobeAcrobatStandard
+Added SLiang to SSO_AdobeAcrobatStandard
+Added YLu to SSO_AdobeAcrobatStandard
+Added PMackewice to SSO_AdobeAcrobatStandard
+Added SMadison to SSO_AdobeAcrobatStandard
+Added CMagrum to SSO_AdobeAcrobatStandard
+Added JMAIORAN to SSO_AdobeAcrobatStandard
+Added Dmangan to SSO_AdobeAcrobatStandard
+Added RManzi to SSO_AdobeAcrobatStandard
+Added TMaramonte to SSO_AdobeAcrobatStandard
+Added JMarte to SSO_AdobeAcrobatStandard
+Added MMASI to SSO_AdobeAcrobatStandard
+Added SMathura to SSO_AdobeAcrobatStandard
+Added DMcClintock to SSO_AdobeAcrobatStandard
+Added MMerritt to SSO_AdobeAcrobatStandard
+Added JMeyer to SSO_AdobeAcrobatStandard
+Added NMildon to SSO_AdobeAcrobatStandard
+Added JMillard to SSO_AdobeAcrobatStandard
+Added RMiller to SSO_AdobeAcrobatStandard
+Added JMione to SSO_AdobeAcrobatStandard
+Added nmohammed to SSO_AdobeAcrobatStandard
+Added SMolfetta to SSO_AdobeAcrobatStandard
+Added lmoran to SSO_AdobeAcrobatStandard
+Added WMunoz to SSO_AdobeAcrobatStandard
+Added GMurolo to SSO_AdobeAcrobatStandard
+Added MNedder to SSO_AdobeAcrobatStandard
+Added Eneofitidis to SSO_AdobeAcrobatStandard
+Added SNezhad to SSO_AdobeAcrobatStandard
+Added LNoto to SSO_AdobeAcrobatStandard
+Added MNugent to SSO_AdobeAcrobatStandard
+Added joconnor to SSO_AdobeAcrobatStandard
+Added jodom to SSO_AdobeAcrobatStandard
+Added COHara to SSO_AdobeAcrobatStandard
+Added ROk to SSO_AdobeAcrobatStandard
+Added SParrish to SSO_AdobeAcrobatStandard
+Added TPerrotta to SSO_AdobeAcrobatStandard
+Added JPerry-Krucenski to SSO_AdobeAcrobatStandard
+Added APersaud to SSO_AdobeAcrobatStandard
+Added splotkin to SSO_AdobeAcrobatStandard
+Added JPomerantz to SSO_AdobeAcrobatStandard
+Added JPompei to SSO_AdobeAcrobatStandard
+Added DProphete to SSO_AdobeAcrobatStandard
+Added treed to SSO_AdobeAcrobatStandard
+Added cregan to SSO_AdobeAcrobatStandard
+Added CReynolds to SSO_AdobeAcrobatStandard
+Added CRiccardi to SSO_AdobeAcrobatStandard
+Added jroche to SSO_AdobeAcrobatStandard
+Added GRodriguez to SSO_AdobeAcrobatStandard
+Added lrodriguez to SSO_AdobeAcrobatStandard
+Added SRokhsar to SSO_AdobeAcrobatStandard
+Added SRomagnolo to SSO_AdobeAcrobatStandard
+Added drusso to SSO_AdobeAcrobatStandard
+Added kfenton to SSO_AdobeAcrobatStandard
+Added msalerno to SSO_AdobeAcrobatStandard
+Added TSalvatore to SSO_AdobeAcrobatStandard
+Added NSantos to SSO_AdobeAcrobatStandard
+Added KSchad to SSO_AdobeAcrobatStandard
+Added RSchepis to SSO_AdobeAcrobatStandard
+Added DSchwartz to SSO_AdobeAcrobatStandard
+Added MSellitto to SSO_AdobeAcrobatStandard
+Added NShatursun to SSO_AdobeAcrobatStandard
+Added RSheridan to SSO_AdobeAcrobatStandard
+Added JShkreli to SSO_AdobeAcrobatStandard
+Added VSilvagnoli to SSO_AdobeAcrobatStandard
+Added SSolano to SSO_AdobeAcrobatStandard
+Added MSolorzano-Navarro to SSO_AdobeAcrobatStandard
+Added cstewart to SSO_AdobeAcrobatStandard
+Added rstewart to SSO_AdobeAcrobatStandard
+Added jstuart to SSO_AdobeAcrobatStandard
+Added CTamney to SSO_AdobeAcrobatStandard
+Added GTetro to SSO_AdobeAcrobatStandard
+Added kthilman to SSO_AdobeAcrobatStandard
+Added lthompson to SSO_AdobeAcrobatStandard
+Added jticona to SSO_AdobeAcrobatStandard
+Added MTomek to SSO_AdobeAcrobatStandard
+Added KTorres to SSO_AdobeAcrobatStandard
+Added YTsai to SSO_AdobeAcrobatStandard
+Added Cturner to SSO_AdobeAcrobatStandard
+Added kunangst to SSO_AdobeAcrobatStandard
+Added DVillacres to SSO_AdobeAcrobatStandard
+Added mwalsh to SSO_AdobeAcrobatStandard
+Added LXu to SSO_AdobeAcrobatStandard
+Added HYi to SSO_AdobeAcrobatStandard
+Added JYu1 to SSO_AdobeAcrobatStandard
+Added jyu to SSO_AdobeAcrobatStandard
+Added EZekraus to SSO_AdobeAcrobatStandard
+Added szhitelzeyf to SSO_AdobeAcrobatStandard
+Added sbhatia to SSO_AdobeAcrobatStandard
+Added MCarpio to SSO_AdobeAcrobatStandard
+Added kcasavecchia to SSO_AdobeAcrobatStandard
+Added LChen to SSO_AdobeAcrobatStandard
+Added KClassie to SSO_AdobeAcrobatStandard
+Added JCustance to SSO_AdobeAcrobatStandard
+Added IDimopoulos to SSO_AdobeAcrobatStandard
+Added DFarrell to SSO_AdobeAcrobatStandard
+Added PFasano to SSO_AdobeAcrobatStandard
+Added MGenova to SSO_AdobeAcrobatStandard
+Added ehung to SSO_AdobeAcrobatStandard
+Added JKoszalka to SSO_AdobeAcrobatStandard
+Added RLeshaw to SSO_AdobeAcrobatStandard
+Added CLiuluk to SSO_AdobeAcrobatStandard
+Added YLoor to SSO_AdobeAcrobatStandard
+Added SLukose-Khan to SSO_AdobeAcrobatStandard
+Added BMcRae to SSO_AdobeAcrobatStandard
+Added JMendez to SSO_AdobeAcrobatStandard
+Added smohan to SSO_AdobeAcrobatStandard
+Added APark to SSO_AdobeAcrobatStandard
+Added VScalise to SSO_AdobeAcrobatStandard
+Added ATom to SSO_AdobeAcrobatStandard
+Added hwang to SSO_AdobeAcrobatStandard
+Added kwijaya to SSO_AdobeAcrobatStandard
+Added KWinter to SSO_AdobeAcrobatStandard
+Added KXue to SSO_AdobeAcrobatStandard
+Added RYoung to SSO_AdobeAcrobatStandard
+Added SZeltser to SSO_AdobeAcrobatStandard
+Transcript stopped, output file is C:\Scripts\OutputFiles\Add-ADUsers.log
+]633;E;. 'C:\x5cScripts\x5cAdd-ADUsersToGroup.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>. 'C:\Scripts\Get-ADGroupMember.ps1'
+>> TerminatingError(Export-Csv): "The process cannot access the file 'C:\Scripts\OutputFiles\ADGroupMembers.csv' because it is being used by another process."
+Export-csv : The process cannot access the file 'C:\Scripts\OutputFiles\ADGroupMembers.csv' because it is being used by 
+another process.
+At C:\Scripts\Get-ADGroupMember.ps1:7 char:2
++  Export-csv -path C:\Scripts\OutputFiles\ADGroupMembers.csv -NoTypeIn ...
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-csv : The process cannot access the file
+'C:\Scripts\OutputFiles\ADGroupMembers.csv' because it is being used by another
+process.
+At C:\Scripts\Get-ADGroupMember.ps1:7 char:2
++  Export-csv -path C:\Scripts\OutputFiles\ADGroupMembers.csv -NoTypeIn ...
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsv
+   Command
+
+]633;E;. 'C:\x5cScripts\x5cGet-ADGroupMember.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>. 'C:\Scripts\Remove-AdGroupMembers.ps1'
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+Removed JMtshali from SSO_AdobeAcrobatPro
+Removed GAndrade from SSO_AdobeAcrobatPro
+Removed CArcher from SSO_AdobeAcrobatPro
+Removed CPennino from SSO_AdobeAcrobatPro
+Removed PArnold from SSO_AdobeAcrobatPro
+Removed AHussain from SSO_AdobeAcrobatPro
+Removed KWong from SSO_AdobeAcrobatPro
+Removed GWilliams from SSO_AdobeAcrobatPro
+Removed MDiamond from SSO_AdobeAcrobatPro
+Removed KPotter from SSO_AdobeAcrobatPro
+Removed JViscusi from SSO_AdobeAcrobatPro
+Removed DCascione from SSO_AdobeAcrobatPro
+Removed HLewis from SSO_AdobeAcrobatPro
+Removed CMea from SSO_AdobeAcrobatPro
+Removed MSingh1 from SSO_AdobeAcrobatPro
+Removed APesonen from SSO_AdobeAcrobatPro
+Removed AGoess from SSO_AdobeAcrobatPro
+Removed EAlvarez from SSO_AdobeAcrobatPro
+Removed PGlenn from SSO_AdobeAcrobatPro
+Removed GDaitsis from SSO_AdobeAcrobatPro
+Removed MSingh from SSO_AdobeAcrobatPro
+Removed ABuonantuono from SSO_AdobeAcrobatPro
+Removed CYepez from SSO_AdobeAcrobatPro
+Removed CRamrup from SSO_AdobeAcrobatPro
+Removed YNuriyev from SSO_AdobeAcrobatPro
+Removed EChinapen-Grullon from SSO_AdobeAcrobatPro
+Removed LImerti from SSO_AdobeAcrobatPro
+Removed ASavastano from SSO_AdobeAcrobatPro
+Removed RSaini from SSO_AdobeAcrobatPro
+Removed PDavi from SSO_AdobeAcrobatPro
+Removed tbuonaiuto from SSO_AdobeAcrobatPro
+Removed MKhan from SSO_AdobeAcrobatPro
+Removed RMantekas from SSO_AdobeAcrobatPro
+Removed msoffer from SSO_AdobeAcrobatPro
+Removed ESilva from SSO_AdobeAcrobatPro
+Removed AGoodman from SSO_AdobeAcrobatPro
+Removed NTavares from SSO_AdobeAcrobatPro
+Removed NJean-Charles from SSO_AdobeAcrobatPro
+Removed PMurray from SSO_AdobeAcrobatPro
+Removed DGomez from SSO_AdobeAcrobatPro
+Removed CMouchacca from SSO_AdobeAcrobatPro
+Removed CSteunenberg from SSO_AdobeAcrobatPro
+Removed MLaPlaca from SSO_AdobeAcrobatPro
+Removed RWhite from SSO_AdobeAcrobatPro
+Removed FCapolongo from SSO_AdobeAcrobatPro
+Removed JTellekamp from SSO_AdobeAcrobatPro
+Removed ANese from SSO_AdobeAcrobatPro
+Removed rlauria from SSO_AdobeAcrobatPro
+Removed ABaldeo from SSO_AdobeAcrobatPro
+Removed MKaiser from SSO_AdobeAcrobatPro
+Removed tbrown from SSO_AdobeAcrobatPro
+Removed ajeanbaptiste from SSO_AdobeAcrobatPro
+Removed MMiliano from SSO_AdobeAcrobatPro
+Removed VBarry from SSO_AdobeAcrobatPro
+Removed kpoblador from SSO_AdobeAcrobatPro
+Removed asompolou from SSO_AdobeAcrobatPro
+Removed MReilly from SSO_AdobeAcrobatPro
+Removed SNicoletti from SSO_AdobeAcrobatPro
+Removed DJoseph from SSO_AdobeAcrobatPro
+Removed KWilliams from SSO_AdobeAcrobatPro
+Removed SAkhter from SSO_AdobeAcrobatPro
+Removed STaylor from SSO_AdobeAcrobatPro
+Removed CCipolla from SSO_AdobeAcrobatPro
+Removed WStumpf from SSO_AdobeAcrobatPro
+Removed CMarcelo from SSO_AdobeAcrobatPro
+Removed AMangano from SSO_AdobeAcrobatPro
+Removed RDennelly from SSO_AdobeAcrobatPro
+Removed SValdaro from SSO_AdobeAcrobatPro
+Removed JGomez from SSO_AdobeAcrobatPro
+Removed SYoung from SSO_AdobeAcrobatPro
+Removed adomillmaltese from SSO_AdobeAcrobatPro
+Removed DAllen from SSO_AdobeAcrobatPro
+Removed MPortnoy from SSO_AdobeAcrobatPro
+Removed TLynn from SSO_AdobeAcrobatPro
+Removed JRinaldi from SSO_AdobeAcrobatPro
+Removed PGrier from SSO_AdobeAcrobatPro
+Removed mwitter from SSO_AdobeAcrobatPro
+Removed mhartmann from SSO_AdobeAcrobatPro
+Removed dliang from SSO_AdobeAcrobatPro
+Removed sowens from SSO_AdobeAcrobatPro
+Removed Jmanning from SSO_AdobeAcrobatPro
+Removed adatta from SSO_AdobeAcrobatPro
+Removed jamoroso from SSO_AdobeAcrobatPro
+Removed ddavis from SSO_AdobeAcrobatPro
+Removed JFeniello from SSO_AdobeAcrobatPro
+Removed GLiotta from SSO_AdobeAcrobatPro
+Removed rfiliberto from SSO_AdobeAcrobatPro
+Removed rfleishman from SSO_AdobeAcrobatPro
+Removed Amenniti from SSO_AdobeAcrobatPro
+Removed JOrelli from SSO_AdobeAcrobatPro
+Removed Nballato from SSO_AdobeAcrobatPro
+Removed jmustapich from SSO_AdobeAcrobatPro
+Removed mtodd2 from SSO_AdobeAcrobatPro
+Removed AJIN from SSO_AdobeAcrobatPro
+Removed ssadlis from SSO_AdobeAcrobatPro
+Removed pmezeul from SSO_AdobeAcrobatPro
+Removed ASPATHIS from SSO_AdobeAcrobatPro
+Removed yspencer from SSO_AdobeAcrobatPro
+Removed AFORMICA from SSO_AdobeAcrobatPro
+Removed fgregorio from SSO_AdobeAcrobatPro
+Removed ptiffany from SSO_AdobeAcrobatPro
+Removed FKORZEKW from SSO_AdobeAcrobatPro
+Removed ELaBarbera from SSO_AdobeAcrobatPro
+Removed SRamkissoon from SSO_AdobeAcrobatPro
+Removed RTariche from SSO_AdobeAcrobatPro
+Removed kchi from SSO_AdobeAcrobatPro
+Transcript stopped, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+]633;E;. 'C:\x5cScripts\x5cRemove-AdGroupMembers.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>. 'C:\Scripts\Add-ADUsersToGroup.ps1'
+Transcript started, output file is C:\Scripts\OutputFiles\Add-ADUsers.log
+Added GAndrade to SSO_AdobeAcrobatPro
+Added ABaldeo to SSO_AdobeAcrobatPro
+Added Nballato to SSO_AdobeAcrobatPro
+Added tbrown to SSO_AdobeAcrobatPro
+Added tbuonaiuto to SSO_AdobeAcrobatPro
+Added kchi to SSO_AdobeAcrobatPro
+Added GDaitsis to SSO_AdobeAcrobatPro
+Added adomillmaltese to SSO_AdobeAcrobatPro
+Added JFeniello to SSO_AdobeAcrobatPro
+Added rfleishman to SSO_AdobeAcrobatPro
+Added AFORMICA to SSO_AdobeAcrobatPro
+Added fgregorio to SSO_AdobeAcrobatPro
+Added PGrier to SSO_AdobeAcrobatPro
+Added DJoseph to SSO_AdobeAcrobatPro
+Added MKaiser to SSO_AdobeAcrobatPro
+Added MLaPlaca to SSO_AdobeAcrobatPro
+Added glaub to SSO_AdobeAcrobatPro
+Added HLewis to SSO_AdobeAcrobatPro
+Added dliang to SSO_AdobeAcrobatPro
+Added GLiotta to SSO_AdobeAcrobatPro
+Added CMarcelo to SSO_AdobeAcrobatPro
+Added mhartmann to SSO_AdobeAcrobatPro
+Added Amenniti to SSO_AdobeAcrobatPro
+Added jmustapich to SSO_AdobeAcrobatPro
+Added ANese to SSO_AdobeAcrobatPro
+Added YNuriyev to SSO_AdobeAcrobatPro
+Added JOrelli to SSO_AdobeAcrobatPro
+Added sowens to SSO_AdobeAcrobatPro
+Added pmezeul to SSO_AdobeAcrobatPro
+Added DPinou to SSO_AdobeAcrobatPro
+Added KPotter to SSO_AdobeAcrobatPro
+Added CRamrup to SSO_AdobeAcrobatPro
+Added MReilly to SSO_AdobeAcrobatPro
+Added ASPATHIS to SSO_AdobeAcrobatPro
+Added CSteunenberg to SSO_AdobeAcrobatPro
+Added ptiffany to SSO_AdobeAcrobatPro
+Added mtodd2 to SSO_AdobeAcrobatPro
+Added SValdaro to SSO_AdobeAcrobatPro
+Added GWilliams to SSO_AdobeAcrobatPro
+Added mwitter to SSO_AdobeAcrobatPro
+Added KWong to SSO_AdobeAcrobatPro
+Added CYepez to SSO_AdobeAcrobatPro
+Added AGoess to SSO_AdobeAcrobatPro
+Added Ajin to SSO_AdobeAcrobatPro
+Added FKORZEKW to SSO_AdobeAcrobatPro
+Added rlauria to SSO_AdobeAcrobatPro
+Added TLynn to SSO_AdobeAcrobatPro
+Added CMea to SSO_AdobeAcrobatPro
+Added MMiliano to SSO_AdobeAcrobatPro
+Added PMurray to SSO_AdobeAcrobatPro
+Added CPennino to SSO_AdobeAcrobatPro
+Added MPortnoy to SSO_AdobeAcrobatPro
+Added ASavastano to SSO_AdobeAcrobatPro
+Added ESilva to SSO_AdobeAcrobatPro
+Added MSingh1 to SSO_AdobeAcrobatPro
+Added msoffer to SSO_AdobeAcrobatPro
+Added asompolou to SSO_AdobeAcrobatPro
+Added WStumpf to SSO_AdobeAcrobatPro
+Added NTavares to SSO_AdobeAcrobatPro
+Added STaylor to SSO_AdobeAcrobatPro
+Added RWhite to SSO_AdobeAcrobatPro
+Added ssadlis to SSO_AdobeAcrobatPro
+Added JTellekamp to SSO_AdobeAcrobatPro
+Transcript stopped, output file is C:\Scripts\OutputFiles\Add-ADUsers.log
+]633;E;. 'C:\x5cScripts\x5cAdd-ADUsersToGroup.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cScriptsPS C:\Scripts> ]633;B
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Micro...
+
+
+PS>CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+>> ParameterBinding(Get-Help): name="Online"; value="False"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail
+    <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force]
+    [-Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait]
+    [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 |
+    UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]
+    [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>]
+    [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>]
+    [-Force] [-Credential <pscredential>] [-UseTransaction] [-Delimiter <string>]
+    [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode |
+    UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]
+     [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is
+    displaying only partial help.
+        -- To download and install Help files for the module that includes this
+    cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content
+    -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+**********************
+Windows PowerShell transcript start
+Start time: 20231120131817
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700237400-91bd16ca-3ffb-4dee-8c65-def7d30413201700237395719\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-1472-618853.json' -FeatureFlags @() 
+Process ID: 18940
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+PS>TerminatingError(Get-ADPrincipalGroupMembership): "The operation being requested was not performed because the user has not been authenticated"
+Get-ADPrincipalGroupMembership : The operation being requested was not performed because the user has not been 
+authenticated
+At C:\Scripts\Remove-AdGroupMembers.ps1:27 char:27
++ ... ingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | S ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (BChuc:ADPrincipal) [Get-ADPrincipalGroupMembership], ADException
+    + FullyQualifiedErrorId : 
+ActiveDirectoryServer:1244,Microsoft.ActiveDirectory.Management.Commands.GetADPrincipalGroupMembership
+Get-ADPrincipalGroupMembership : The operation being requested was not performed
+because the user has not been authenticated
+At C:\Scripts\Remove-AdGroupMembers.ps1:27 char:27
++ ... ingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | S ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (BChuc:ADPrincipal) [Get-ADPrincipalGroup
+   Membership], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1244,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADPrincipalGroupMembership
+
+bchuc does not exist in SSO_AdobeAcrobatPro
+**********************
+Windows PowerShell transcript end
+End time: 20231120131818
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231120131934
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700504348-9f80843a-19b5-45a7-bae7-b6dbbaec5bf71700504345176\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-40968-448105.json' -FeatureFlags @() 
+Process ID: 18120
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+WARNING: Error initializing default drive: 'Either the target name is incorrect or the server has rejected the client credentials.'.
+PS>TerminatingError(Get-ADUser): "Either the target name is incorrect or the server has rejected the client credentials."
+Get-ADUser : Either the target name is incorrect or the server has rejected the client credentials.
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [Get-ADUser], AuthenticationException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:System.Security.Authentication.AuthenticationException,Microsoft.Act
+iveDirectory.Management.Commands.GetADUser
+Get-ADUser : Either the target name is incorrect or the server has rejected the
+client credentials.
+At C:\Scripts\Remove-AdGroupMembers.ps1:19 char:15
++     $ADUser = Get-ADUser -Filter "SamAccountName -eq '$UPN'" | Select ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [Get-ADUser], AuthenticationExceptio
+   n
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:System.Security.Authentication.Au
+   thenticationException,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+
+bchuc does not exist in AD
+**********************
+Windows PowerShell transcript end
+End time: 20231120131935
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231120132238
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700504348-9f80843a-19b5-45a7-bae7-b6dbbaec5bf71700504345176\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-40968-448105.json' -FeatureFlags @() 
+Process ID: 18120
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+PS>TerminatingError(Get-ADPrincipalGroupMembership): "The operation being requested was not performed because the user has not been authenticated"
+Get-ADPrincipalGroupMembership : The operation being requested was not performed because the user has not been 
+authenticated
+At C:\Scripts\Remove-AdGroupMembers.ps1:27 char:27
++ ... ingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | S ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (BChuc:ADPrincipal) [Get-ADPrincipalGroupMembership], ADException
+    + FullyQualifiedErrorId : 
+ActiveDirectoryServer:1244,Microsoft.ActiveDirectory.Management.Commands.GetADPrincipalGroupMembership
+Get-ADPrincipalGroupMembership : The operation being requested was not performed
+because the user has not been authenticated
+At C:\Scripts\Remove-AdGroupMembers.ps1:27 char:27
++ ... ingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | S ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (BChuc:ADPrincipal) [Get-ADPrincipalGroup
+   Membership], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1244,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADPrincipalGroupMembership
+
+bchuc does not exist in SSO_AdobeAcrobatPro
+**********************
+Windows PowerShell transcript end
+End time: 20231120132239
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231120132447
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700504657-d024c706-e2c9-4e87-bb0f-306354a4de0d1700504655413\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-26016-472649.json' -FeatureFlags @() 
+Process ID: 35084
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+PS>TerminatingError(Get-ADPrincipalGroupMembership): "The operation being requested was not performed because the user has not been authenticated"
+Get-ADPrincipalGroupMembership : The operation being requested was not performed because the user has not been 
+authenticated
+At C:\Scripts\Remove-AdGroupMembers.ps1:27 char:27
++ ... ingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | S ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (BChuc:ADPrincipal) [Get-ADPrincipalGroupMembership], ADException
+    + FullyQualifiedErrorId : 
+ActiveDirectoryServer:1244,Microsoft.ActiveDirectory.Management.Commands.GetADPrincipalGroupMembership
+Get-ADPrincipalGroupMembership : The operation being requested was not performed
+because the user has not been authenticated
+At C:\Scripts\Remove-AdGroupMembers.ps1:27 char:27
++ ... ingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | S ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (BChuc:ADPrincipal) [Get-ADPrincipalGroup
+   Membership], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1244,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADPrincipalGroupMembership
+
+bchuc does not exist in SSO_AdobeAcrobatPro
+**********************
+Windows PowerShell transcript end
+End time: 20231120132449
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231120132548
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700504657-d024c706-e2c9-4e87-bb0f-306354a4de0d1700504655413\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-26016-472649.json' -FeatureFlags @() 
+Process ID: 35084
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+PS>TerminatingError(Get-ADPrincipalGroupMembership): "The operation being requested was not performed because the user has not been authenticated"
+Get-ADPrincipalGroupMembership : The operation being requested was not performed because the user has not been 
+authenticated
+At C:\Scripts\Remove-AdGroupMembers.ps1:27 char:27
++ ... ingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | S ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (BChuc:ADPrincipal) [Get-ADPrincipalGroupMembership], ADException
+    + FullyQualifiedErrorId : 
+ActiveDirectoryServer:1244,Microsoft.ActiveDirectory.Management.Commands.GetADPrincipalGroupMembership
+Get-ADPrincipalGroupMembership : The operation being requested was not performed
+because the user has not been authenticated
+At C:\Scripts\Remove-AdGroupMembers.ps1:27 char:27
++ ... ingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | S ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (BChuc:ADPrincipal) [Get-ADPrincipalGroup
+   Membership], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1244,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADPrincipalGroupMembership
+
+bchuc does not exist in SSO_AdobeAcrobatPro
+**********************
+Windows PowerShell transcript end
+End time: 20231120132549
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231120132642
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700504657-d024c706-e2c9-4e87-bb0f-306354a4de0d1700504655413\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-26016-472649.json' -FeatureFlags @() 
+Process ID: 35084
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+bchuc@flushingbank.com does not exist in AD
+**********************
+Windows PowerShell transcript end
+End time: 20231120132643
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231120132820
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700504657-d024c706-e2c9-4e87-bb0f-306354a4de0d1700504655413\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-26016-472649.json' -FeatureFlags @() 
+Process ID: 35084
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+PS>TerminatingError(Get-ADPrincipalGroupMembership): "The operation being requested was not performed because the user has not been authenticated"
+Get-ADPrincipalGroupMembership : The operation being requested was not performed because the user has not been 
+authenticated
+At C:\Scripts\Remove-AdGroupMembers.ps1:27 char:27
++ ... ingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | S ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (BChuc:ADPrincipal) [Get-ADPrincipalGroupMembership], ADException
+    + FullyQualifiedErrorId : 
+ActiveDirectoryServer:1244,Microsoft.ActiveDirectory.Management.Commands.GetADPrincipalGroupMembership
+Get-ADPrincipalGroupMembership : The operation being requested was not performed
+because the user has not been authenticated
+At C:\Scripts\Remove-AdGroupMembers.ps1:27 char:27
++ ... ingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | S ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (BChuc:ADPrincipal) [Get-ADPrincipalGroup
+   Membership], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1244,Microsoft.ActiveDirectory.Ma
+   nagement.Commands.GetADPrincipalGroupMembership
+
+Bchuc does not exist in SSO_AdobeAcrobatStandard
+**********************
+Windows PowerShell transcript end
+End time: 20231120132821
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231120182323
+Username: FLUSHINGSAVINGS\bchucda
+RunAs User: FLUSHINGSAVINGS\bchucda
+Configuration Name: 
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700504657-d024c706-e2c9-4e87-bb0f-306354a4de0d1700504655413\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-26016-472649.json' -FeatureFlags @() 
+Process ID: 35084
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\OutputFiles\Remove-ADUsers.log
+Removed Bchuc from SSO_AdobeAcrobatStandard
+**********************
+Windows PowerShell transcript end
+End time: 20231120182324
 **********************

@@ -67,4 +67,3 @@ public static ArrayList<String> getValuesToPrintOutInMain(ArrayList<String[]> ro
     //System.out.println(valuesToPrintOut.get(2));
   }
 }
-# Depo*Op19#!
