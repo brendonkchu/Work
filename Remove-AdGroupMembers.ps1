@@ -9,7 +9,7 @@ $Users = Import-Csv "C:\Scripts\OutputFiles\Remove-ADUsersToGroup.csv"
 
 # Specify target group where the users will be removed from
 # You can add the distinguishedName of the group. For example: CN=Pilot,OU=Groups,OU=Company,DC=exoip,DC=local
-$Group = "SSO_AdobeAcrobatStandard" 
+$Group = "AzureFiles-Marcus Public" 
 
 foreach ($User in $Users) {
     # Retrieve UPN
@@ -24,7 +24,9 @@ foreach ($User in $Users) {
     }
     else {
         # Retrieve AD user group membership
-        $ExistingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | Select-Object Name
+        #$ExistingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | Select-Object Name
+        $ExistingGroups = Get-ADUser bchuc -Properties MemberOf | Select-Object -ExpandProperty MemberOf | Get-ADGroup | Select-Object Name
+
 
         # User member of group
         if ($ExistingGroups.Name -eq $Group) {

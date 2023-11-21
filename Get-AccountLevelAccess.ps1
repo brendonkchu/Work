@@ -1,4 +1,6 @@
-﻿$FolderPath = Get-ChildItem -Directory -Path "R:\Adobe" -Force 
+﻿#Displays all Security Access information for a Folder and its Subfolders on A Mapped Drive or Local Drive
+
+$FolderPath = Get-ChildItem -Directory -Path "C:\TEMP" -Force 
 $Output = @() 
 ForEach ($Folder in $FolderPath) { 
     $Acl = Get-Acl -Path $Folder.FullName 

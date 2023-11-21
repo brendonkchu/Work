@@ -24,7 +24,8 @@ foreach ($User in $Users) {
     }
     else {
         # Retrieve AD user group membership
-        $ExistingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | Select-Object Name
+        #$ExistingGroups = Get-ADPrincipalGroupMembership $ADUser.SamAccountName | Select-Object Name
+        $ExistingGroups = Get-ADUser $ADUser.SamAccountName -Properties MemberOf | Select-Object -ExpandProperty MemberOf | Get-ADGroup | Select-Object Name
 
         # User already member of group
         if ($ExistingGroups.Name -eq $Group) {
