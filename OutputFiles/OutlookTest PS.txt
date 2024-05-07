@@ -1,0 +1,72 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\WINDOWS\system32> Connect-ExchangeOnline -UserPrincipalName brendanh-ga@flushingbank.onmicrosoft.com -ShowProgress $true
+
+----------------------------------------------------------------------------------------
+This V3 EXO PowerShell module contains new REST API backed Exchange Online cmdlets which doesn't require WinRM for Client-Server communication. You can now run these cmdlets after turning off WinRM Basic Auth in your client machine thus making it more secure.
+
+Unlike the EXO* prefixed cmdlets, the cmdlets in this module support full functional parity with the RPS (V1) cmdlets.
+
+V3 cmdlets in the downloaded module are resilient to transient failures, handling retries and throttling errors inherently.
+
+However, REST backed EOP and SCC cmdlets are not available yet. To use those, you will need to enable WinRM Basic Auth.
+
+For more information check https://aka.ms/exov3-module
+----------------------------------------------------------------------------------------
+
+PS C:\WINDOWS\system32> Remove-MailboxFolderPermission -Identity apersaud@flushingbank.com:\Calendar -User bchuc@flushingbank.com
+Write-ErrorMessage : Ex41BAF5|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The specified
+mailbox Identity:"apersaud@flushingbank.com" doesn't exist.
+At C:\Users\bchucda\AppData\Local\Temp\tmpEXO_kxqdny45.lho\tmpEXO_kxqdny45.lho.psm1:1190 char:13
++             Write-ErrorMessage $ErrorObject
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Remove-MailboxFolderPermission], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=MN2PR10MB3328,RequestId=d48641f9-7194-3dc4-b05e-41896a18c890,TimeStamp=Thu, 04 J
+   an 2024 19:32:02 GMT],Write-ErrorMessage
+
+PS C:\WINDOWS\system32> Remove-MailboxFolderPermission -Identity apersaud@flushingbank.com:\Calendar -ResetDelegateUserCollection
+Write-ErrorMessage : Ex41BAF5|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The specified
+mailbox Identity:"apersaud@flushingbank.com" doesn't exist.
+At C:\Users\bchucda\AppData\Local\Temp\tmpEXO_kxqdny45.lho\tmpEXO_kxqdny45.lho.psm1:1190 char:13
++             Write-ErrorMessage $ErrorObject
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Remove-MailboxFolderPermission], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=MN2PR10MB3328,RequestId=97e47175-1bf7-023b-7ecd-9e2bce55b196,TimeStamp=Thu, 04 J
+   an 2024 19:33:30 GMT],Write-ErrorMessage
+
+PS C:\WINDOWS\system32> Remove-MailboxFolderPermission -Identity apersaud@flushingbank.com:\Calendar -ResetDelegateUserCollection
+Write-ErrorMessage : Ex41BAF5|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The specified
+mailbox Identity:"apersaud@flushingbank.com" doesn't exist.
+At C:\Users\bchucda\AppData\Local\Temp\tmpEXO_kxqdny45.lho\tmpEXO_kxqdny45.lho.psm1:1190 char:13
++             Write-ErrorMessage $ErrorObject
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Remove-MailboxFolderPermission], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=MN2PR10MB3328,RequestId=678d6b59-970c-3f19-a6b1-de97ce3f8732,TimeStamp=Thu, 04 J
+   an 2024 19:33:35 GMT],Write-ErrorMessage
+
+PS C:\WINDOWS\system32> Remove-MailboxFolderPermission -Identity apersaud@flushingbank.com:\Calendar -User bchuc@flushingbank.com
+Write-ErrorMessage : Ex41BAF5|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The specified
+mailbox Identity:"apersaud@flushingbank.com" doesn't exist.
+At C:\Users\bchucda\AppData\Local\Temp\tmpEXO_kxqdny45.lho\tmpEXO_kxqdny45.lho.psm1:1190 char:13
++             Write-ErrorMessage $ErrorObject
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Remove-MailboxFolderPermission], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=MN2PR10MB3328,RequestId=27749691-522a-69c7-8660-e3ec496323da,TimeStamp=Thu, 04 J
+   an 2024 19:33:52 GMT],Write-ErrorMessage
+
+PS C:\WINDOWS\system32> get-mailbox -identity apersaud@flushingbank.com
+
+Name                      Alias           Database                       ProhibitSendQuota    ExternalDirectoryObjectId
+----                      -----           --------                       -----------------    -------------------------
+Persaud, Avinda           APersaud        NAMPR10DG077-db086             99 GB (106,300,44... 94fbb9bc-735a-4a96-b43...
+
+
+PS C:\WINDOWS\system32> Get-MailboxFolderPermission -Identity apersaud@flushingbank.com:\Calendar -User bchuc@flushingbank.com
+
+FolderName           User                 AccessRights                           SharingPermissionFlags
+----------           ----                 ------------                           ----------------------
+Calendar             Chuc, Brendanh       {Editor}                               Delegate, CanViewPrivateItems
+

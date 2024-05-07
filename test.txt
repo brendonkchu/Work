@@ -1,61 +1,1079 @@
-*@cresa.com
-*@fsuite.co
-*@payprocorp.com
-*@savingsaura.com
-*@cigniti.com
-*@wheelsup.com
-*@webinarhr.co
-*@tritonhro.com
-*@news.pitchbook.com
-*@me-conferences.co.uk
-*@empressfunding.com
-*@cyaibotics.com
-*@m1.clearhracademy.com
-*@e.lb.soundest.email
-*@explore.finacle.com
-*@a.lp.soundest.email
-*@insightsoftware.com
-*@forvis.com
-*@campaign.simplivlearning.co
-*@m1.clearhracademy.com
-*@b.lp.soundest.email
-*@innovaturebpo.org
-*@crayon.com
-*@b.lp.soundest.email
-*@e.lb.soundest.email
-*@lamacchiagroup.com
-*@hello.payscale.com
-*@mkt.zoominfo.com
-*@libn.com
-*@projectretentionteam.com
-*@marcusevansmail.com
-*@tipalti.com
-*@rateshopreports.com
-*@edigitaltechno.com
-*@hrglobal.cloud
-*@b.lp.soundest.email
-*@skystem.com
-*@logically.com
-*@1105info.com
-*@e.lb.soundest.email
-*@maxex.com
-*@a.lp.soundest.email
-*@b.lp.soundest.email
-*@maadvisor.com
-*@crnrstone.com
-*@milliman.com
-*@aggregage.com
-*@usi.com
-*@b.lp.soundest.email
-*@presentation-exc.com
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-1
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-1
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-10
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-10
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-13
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-13
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-15
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-15
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-17
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-17 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-17
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-18
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-18 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-18
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-19
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-19 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-19
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-20
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-20 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-20
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-22
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-22 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-22
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-24
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-24 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-24
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-25
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-25 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-25
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-26
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-26 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-26
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-27
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-27 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-27
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-28
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-28 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-28
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-29
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-29 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-29
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-31
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-31 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-31
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-32
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-32 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-32
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-33
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-33 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-33
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-34
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-34 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-34
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-35
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-35 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-35
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-36
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-36 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-36
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-37
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-37 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-37
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-38
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-38 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-38
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-5
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-5
+$VM = Get-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-9
+Stop-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-accounting-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-accounting-rg -Name AVDACC-9
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-0
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-0
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-1
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-1
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-10
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-10
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-11
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-11
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-14
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-14
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-15
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-15
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-17
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-17 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-17
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-2
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-2
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-3
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-3
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-4
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-4
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-7
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-7
+$VM = Get-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-9
+Stop-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-audit-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-audit-rg -Name AVDADT-9
+$VM = Get-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-0
+Stop-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-appraisal-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-0
+$VM = Get-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-1
+Stop-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-appraisal-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-1
+$VM = Get-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-2
+Stop-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-appraisal-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-2
+$VM = Get-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-4
+Stop-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-appraisal-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-4
+$VM = Get-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-5
+Stop-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-appraisal-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-5
+$VM = Get-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-7
+Stop-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-appraisal-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-appraisal-rg -Name AVDAPR-7
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-0
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-0
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-10
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-10
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-11
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-11
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-12
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-12 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-12
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-13
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-13
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-14
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-14
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-15
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-15
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-16
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-16 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-16
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-18
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-18 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-18
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-19
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-19 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-19
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-20
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-20 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-20
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-21
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-21 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-21
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-22
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-22 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-22
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-23
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-23 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-23
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-24
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-24 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-24
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-25
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-25 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-25
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-26
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-26 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-26
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-27
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-27 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-27
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-29
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-29 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-29
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-30
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-30 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-30
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-31
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-31 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-31
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-32
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-32 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-32
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-33
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-33 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-33
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-34
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-34 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-34
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-35
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-35 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-35
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-36
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-36 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-36
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-5
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-5
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-7
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-7
+$VM = Get-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-8
+Stop-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessbanking-rg -Name AVDBB-8
+$VM = Get-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-0
+Stop-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessdevelopment-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-0
+$VM = Get-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-1
+Stop-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessdevelopment-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-1
+$VM = Get-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-2
+Stop-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessdevelopment-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-2
+$VM = Get-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-3
+Stop-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessdevelopment-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-3
+$VM = Get-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-4
+Stop-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessdevelopment-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-4
+$VM = Get-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-5
+Stop-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessdevelopment-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-5
+$VM = Get-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-6
+Stop-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businessdevelopment-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businessdevelopment-rg -Name AVDBD-6
+$VM = Get-AzVM -ResourceGroupName avd-bankingoperations-rg -Name AVDBO-4
+Stop-AzVM -ResourceGroupName avd-bankingoperations-rg -Name AVDBO-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bankingoperations-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bankingoperations-rg -Name AVDBO-4
+$VM = Get-AzVM -ResourceGroupName avd-bankingoperations-rg -Name AVDBO-5
+Stop-AzVM -ResourceGroupName avd-bankingoperations-rg -Name AVDBO-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bankingoperations-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bankingoperations-rg -Name AVDBO-5
+$VM = Get-AzVM -ResourceGroupName avd-bankingoperations-rg -Name AVDBO-8
+Stop-AzVM -ResourceGroupName avd-bankingoperations-rg -Name AVDBO-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bankingoperations-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bankingoperations-rg -Name AVDBO-8
+$VM = Get-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-0
+Stop-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bsa-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-0
+$VM = Get-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-1
+Stop-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bsa-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-1
+$VM = Get-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-10
+Stop-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bsa-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-10
+$VM = Get-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-2
+Stop-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bsa-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-2
+$VM = Get-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-3
+Stop-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bsa-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-3
+$VM = Get-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-4
+Stop-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bsa-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-4
+$VM = Get-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-5
+Stop-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bsa-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-5
+$VM = Get-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-6
+Stop-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bsa-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-6
+$VM = Get-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-7
+Stop-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bsa-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-7
+$VM = Get-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-8
+Stop-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bsa-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-8
+$VM = Get-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-9
+Stop-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-bsa-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-bsa-rg -Name AVDBSA-9
+$VM = Get-AzVM -ResourceGroupName avd-businesssystems-rg -Name AVDBSP-0
+Stop-AzVM -ResourceGroupName avd-businesssystems-rg -Name AVDBSP-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-businesssystems-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-businesssystems-rg -Name AVDBSP-0
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-10
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-10
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-11
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-11
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-13
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-13
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-14
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-14
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-15
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-15
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-17
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-17 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-17
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-18
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-18 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-18
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-19
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-19 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-19
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-20
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-20 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-20
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-21
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-21 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-21
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-22
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-22 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-22
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-23
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-23 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-23
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-24
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-24 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-24
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-25
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-25 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-25
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-28
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-28 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-28
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-29
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-29 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-29
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-30
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-30 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-30
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-31
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-31 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-31
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-34
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-34 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-34
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-36
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-36 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-36
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-37
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-37 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-37
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-38
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-38 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-38
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-39
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-39 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-39
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-40
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-40 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-40
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-5
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-5
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-6
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-6
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-7
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-7
+$VM = Get-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-9
+Stop-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creditcenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creditcenter-rg -Name AVDCC-9
+$VM = Get-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-10
+Stop-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-collectionsforeclosure-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-10
+$VM = Get-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-4
+Stop-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-collectionsforeclosure-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-4
+$VM = Get-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-8
+Stop-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-collectionsforeclosure-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-8
+$VM = Get-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-9
+Stop-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-collectionsforeclosure-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-collectionsforeclosure-rg -Name AVDCF-9
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-0
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-0
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-1
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-1
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-11
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-11
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-12
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-12 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-12
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-13
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-13
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-14
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-14
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-15
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-15
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-16
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-16 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-16
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-17
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-17 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-17
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-18
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-18 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-18
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-2
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-2
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-4
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-4
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-6
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-6
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-7
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-7
+$VM = Get-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-9
+Stop-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-commercialloans-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-commercialloans-rg -Name AVDCL-9
+$VM = Get-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-0
+Stop-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-compliance-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-0
+$VM = Get-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-2
+Stop-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-compliance-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-2
+$VM = Get-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-3
+Stop-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-compliance-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-3
+$VM = Get-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-4
+Stop-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-compliance-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-compliance-rg -Name AVDCOM-4
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-11
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-11
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-16
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-16 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-16
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-19
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-19 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-19
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-20
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-20 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-20
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-21
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-21 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-21
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-22
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-22 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-22
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-24
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-24 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-24
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-27
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-27 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-27
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-28
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-28 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-28
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-29
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-29 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-29
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-3
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-3
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-30
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-30 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-30
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-31
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-31 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-31
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-32
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-32 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-32
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-33
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-33 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-33
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-34
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-34 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-34
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-35
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-35 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-35
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-36
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-36 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-36
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-37
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-37 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-37
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-38
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-38 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-38
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-39
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-39 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-39
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-40
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-40 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-40
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-41
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-41 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-41
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-42
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-42 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-42
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-43
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-43 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-43
+$VM = Get-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-9
+Stop-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-consultants-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-consultants-rg -Name AVDCON-9
+$VM = Get-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-1
+Stop-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creprofessionalbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-1
+$VM = Get-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-2
+Stop-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creprofessionalbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-2
+$VM = Get-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-3
+Stop-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creprofessionalbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-3
+$VM = Get-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-4
+Stop-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creprofessionalbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-4
+$VM = Get-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-5
+Stop-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-creprofessionalbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-creprofessionalbanking-rg -Name AVDCPB-5
+$VM = Get-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-0
+Stop-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-customerproductservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-0
+$VM = Get-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-1
+Stop-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-customerproductservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-1
+$VM = Get-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-2
+Stop-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-customerproductservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-2
+$VM = Get-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-3
+Stop-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-customerproductservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-3
+$VM = Get-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-4
+Stop-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-customerproductservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-4
+$VM = Get-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-5
+Stop-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-customerproductservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-customerproductservices-rg -Name AVDCPS-5
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-10
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-10
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-13
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-13
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-14
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-14
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-15
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-15
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-16
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-16 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-16
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-17
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-17 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-17
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-18
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-18 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-18
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-19
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-19 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-19
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-2
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-2
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-20
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-20 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-20
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-21
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-21 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-21
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-22
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-22 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-22
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-23
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-23 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-23
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-3
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-3
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-4
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-4
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-5
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-5
+$VM = Get-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-8
+Stop-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-depositops-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-depositops-rg -Name AVDDO-8
+$VM = Get-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-0
+Stop-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-executive-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-0
+$VM = Get-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-1
+Stop-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-executive-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-1
+$VM = Get-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-10
+Stop-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-executive-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-10
+$VM = Get-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-11
+Stop-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-executive-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-11
+$VM = Get-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-2
+Stop-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-executive-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-2
+$VM = Get-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-3
+Stop-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-executive-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-3
+$VM = Get-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-4
+Stop-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-executive-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-4
+$VM = Get-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-5
+Stop-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-executive-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-5
+$VM = Get-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-7
+Stop-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-executive-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-7
+$VM = Get-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-8
+Stop-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-executive-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-8
+$VM = Get-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-9
+Stop-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-executive-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-executive-rg -Name AVDEX-9
+$VM = Get-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-0
+Stop-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-facilities-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-0
+$VM = Get-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-1
+Stop-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-facilities-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-1
+$VM = Get-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-2
+Stop-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-facilities-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-2
+$VM = Get-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-3
+Stop-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-facilities-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-3
+$VM = Get-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-5
+Stop-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-facilities-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-5
+$VM = Get-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-7
+Stop-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-facilities-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-facilities-rg -Name AVDFAC-7
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-0
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-0
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-1
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-1
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-10
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-10
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-11
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-11
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-12
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-12 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-12
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-13
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-13
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-14
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-14
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-2
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-2
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-3
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-3
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-4
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-4
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-5
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-5
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-6
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-6
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-7
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-7
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-8
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-8
+$VM = Get-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-9
+Stop-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-fraudrisk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-fraudrisk-rg -Name AVDFR-9
+$VM = Get-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-11
+Stop-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-govbank-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-11
+$VM = Get-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-12
+Stop-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-12 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-govbank-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-12
+$VM = Get-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-13
+Stop-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-govbank-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-13
+$VM = Get-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-14
+Stop-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-govbank-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-14
+$VM = Get-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-5
+Stop-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-govbank-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-5
+$VM = Get-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-7
+Stop-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-govbank-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-7
+$VM = Get-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-8
+Stop-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-govbank-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-govbank-rg -Name AVDGB-8
+$VM = Get-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-0
+Stop-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-generalservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-0
+$VM = Get-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-1
+Stop-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-generalservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-1
+$VM = Get-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-2
+Stop-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-generalservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-2
+$VM = Get-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-3
+Stop-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-generalservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-3
+$VM = Get-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-4
+Stop-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-generalservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-generalservices-rg -Name AVDGS-4
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-10
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-10
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-11
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-11
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-12
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-12 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-12
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-13
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-13
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-14
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-14
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-15
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-15
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-2
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-2
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-4
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-4
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-5
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-5
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-6
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-6
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-8
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-8
+$VM = Get-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-9
+Stop-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-hr-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-hr-rg -Name AVDHR-9
+$VM = Get-AzVM -ResourceGroupName avd-investorrelations-rg -Name AVDIR-1
+Stop-AzVM -ResourceGroupName avd-investorrelations-rg -Name AVDIR-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-investorrelations-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-investorrelations-rg -Name AVDIR-1
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-0
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-0
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-13
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-13
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-14
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-14
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-15
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-15
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-16
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-16 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-16
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-17
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-17 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-17
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-3
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-3
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-4
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-4
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-5
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-5
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-6
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-6
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-7
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-7
+$VM = Get-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-9
+Stop-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-infosec-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-infosec-rg -Name AVDIS-9
 $VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-0
 Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-0 -Force
 Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
 Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-0
-$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-11
-Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-11 -Force
-Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
-Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-11
 $VM = Get-AzVM -ResourceGroupName azureimagesrg -Name AVDIT-12
 Stop-AzVM -ResourceGroupName azureimagesrg -Name AVDIT-12 -Force
 Update-AzVM -VM $VM -ResourceGroupName azureimagesrg -EncryptionAtHost $true
@@ -64,10 +1082,6 @@ $VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-14
 Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-14 -Force
 Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
 Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-14
-$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-15
-Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-15 -Force
-Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
-Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-15
 $VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-16
 Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-16 -Force
 Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
@@ -104,22 +1118,6 @@ $VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-35
 Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-35 -Force
 Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
 Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-35
-$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-36
-Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-36 -Force
-Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
-Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-36
-$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-39
-Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-39 -Force
-Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
-Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-39
-$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-40
-Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-40 -Force
-Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
-Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-40
-$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-41
-Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-41 -Force
-Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
-Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-41
 $VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-42
 Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-42 -Force
 Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
@@ -140,10 +1138,18 @@ $VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-46
 Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-46 -Force
 Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
 Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-46
-$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-5
-Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-5 -Force
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-47
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-47 -Force
 Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
-Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-5
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-47
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-48
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-48 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-48
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-49
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-49 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-49
 $VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-6
 Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDIT-6 -Force
 Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
@@ -180,3 +1186,867 @@ $VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-9
 Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-9 -Force
 Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
 Start-AzVM -ResourceGroupName avd-it-rg -Name AVDITDev-9
+$VM = Get-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-0
+Stop-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-investmentservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-0
+$VM = Get-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-1
+Stop-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-investmentservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-1
+$VM = Get-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-2
+Stop-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-investmentservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-2
+$VM = Get-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-3
+Stop-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-investmentservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-3
+$VM = Get-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-4
+Stop-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-investmentservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-4
+$VM = Get-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-5
+Stop-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-investmentservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-5
+$VM = Get-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-6
+Stop-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-investmentservices-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-investmentservices-rg -Name AVDIVS-6
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-0
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-0
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-1
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-1
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-10
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-10
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-11
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-11
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-12
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-12 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-12
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-2
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-2
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-3
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-3
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-4
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-4
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-5
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-5
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-6
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-6
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-7
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-7
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-8
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-8
+$VM = Get-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-9
+Stop-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-loanreview-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-loanreview-rg -Name AVDLR-9
+$VM = Get-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-0
+Stop-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-lendingtechopssupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-0
+$VM = Get-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-1
+Stop-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-lendingtechopssupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-1
+$VM = Get-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-3
+Stop-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-lendingtechopssupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-3
+$VM = Get-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-4
+Stop-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-lendingtechopssupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-lendingtechopssupport-rg -Name AVDLV-4
+$VM = Get-AzVM -ResourceGroupName avd-marketing-rg -Name AVDMAR-0
+Stop-AzVM -ResourceGroupName avd-marketing-rg -Name AVDMAR-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-marketing-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-marketing-rg -Name AVDMAR-0
+$VM = Get-AzVM -ResourceGroupName avd-marketing-rg -Name AVDMAR-1
+Stop-AzVM -ResourceGroupName avd-marketing-rg -Name AVDMAR-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-marketing-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-marketing-rg -Name AVDMAR-1
+$VM = Get-AzVM -ResourceGroupName avd-mis-rg -Name AVDMIS-4
+Stop-AzVM -ResourceGroupName avd-mis-rg -Name AVDMIS-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-mis-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-mis-rg -Name AVDMIS-4
+$VM = Get-AzVM -ResourceGroupName avd-mis-rg -Name AVDMIS-7
+Stop-AzVM -ResourceGroupName avd-mis-rg -Name AVDMIS-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-mis-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-mis-rg -Name AVDMIS-7
+$VM = Get-AzVM -ResourceGroupName avd-mis-rg -Name AVDMIS-9
+Stop-AzVM -ResourceGroupName avd-mis-rg -Name AVDMIS-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-mis-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-mis-rg -Name AVDMIS-9
+$VM = Get-AzVM -ResourceGroupName avd-mpc-rg -Name AVDMPC-4
+Stop-AzVM -ResourceGroupName avd-mpc-rg -Name AVDMPC-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-mpc-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-mpc-rg -Name AVDMPC-4
+$VM = Get-AzVM -ResourceGroupName avd-mpc-rg -Name AVDMPC-5
+Stop-AzVM -ResourceGroupName avd-mpc-rg -Name AVDMPC-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-mpc-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-mpc-rg -Name AVDMPC-5
+$VM = Get-AzVM -ResourceGroupName avd-netlabel-rg -Name AVDNL-0
+Stop-AzVM -ResourceGroupName avd-netlabel-rg -Name AVDNL-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-netlabel-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-netlabel-rg -Name AVDNL-0
+$VM = Get-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-0
+Stop-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-operationsanalysisandsupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-0
+$VM = Get-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-1
+Stop-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-operationsanalysisandsupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-1
+$VM = Get-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-2
+Stop-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-operationsanalysisandsupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-2
+$VM = Get-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-3
+Stop-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-operationsanalysisandsupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-3
+$VM = Get-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-5
+Stop-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-operationsanalysisandsupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-5
+$VM = Get-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-6
+Stop-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-operationsanalysisandsupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-6
+$VM = Get-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-7
+Stop-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-operationsanalysisandsupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-7
+$VM = Get-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-8
+Stop-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-operationsanalysisandsupport-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-operationsanalysisandsupport-rg -Name AVDOAS-8
+$VM = Get-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-0
+Stop-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-paymentsystems-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-0
+$VM = Get-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-1
+Stop-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-paymentsystems-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-1
+$VM = Get-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-2
+Stop-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-paymentsystems-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-2
+$VM = Get-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-3
+Stop-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-paymentsystems-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-paymentsystems-rg -Name AVDPAY-3
+$VM = Get-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-0
+Stop-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-pmo-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-0
+$VM = Get-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-1
+Stop-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-pmo-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-1
+$VM = Get-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-3
+Stop-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-pmo-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-3
+$VM = Get-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-4
+Stop-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-pmo-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-4
+$VM = Get-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-5
+Stop-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-pmo-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-pmo-rg -Name AVDPMO-5
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-11
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-11
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-12
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-12 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-12
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-13
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-13
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-14
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-14
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-16
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-16 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-16
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-17
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-17 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-17
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-18
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-18 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-18
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-2
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-2
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-20
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-20 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-20
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-21
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-21 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-21
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-22
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-22 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-22
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-23
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-23 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-23
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-3
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-3
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-4
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-4
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-6
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-6
+$VM = Get-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-8
+Stop-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-portfoliomanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-portfoliomanagement-rg -Name AVDPRT-8
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-0
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-0
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-1
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-1
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-2
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-2
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-3
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDQQQ-3
+$VM = Get-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-0
+Stop-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-0
+$VM = Get-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-10
+Stop-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-10
+$VM = Get-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-11
+Stop-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-11
+$VM = Get-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-2
+Stop-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-2
+$VM = Get-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-3
+Stop-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-3
+$VM = Get-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-4
+Stop-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-4
+$VM = Get-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-5
+Stop-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-5
+$VM = Get-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-7
+Stop-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-7
+$VM = Get-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-8
+Stop-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-8
+$VM = Get-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-9
+Stop-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailbanking-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailbanking-rg -Name AVDRB-9
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-0
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-0
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-11
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-11
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-2
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-2
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-29
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-29 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-29
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-3
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-3
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-32
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-32 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-32
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-33
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-33 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-33
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-34
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-34 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-34
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-35
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-35 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-35
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-36
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-36 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-36
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-37
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-37 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-37
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-39
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-39 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-39
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-40
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-40 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-40
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-41
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-41 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-41
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-42
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-42 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-42
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-43
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-43 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-43
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-44
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-44 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-44
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-45
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-45 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-45
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-46
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-46 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-46
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-47
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-47 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-47
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-48
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-48 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-48
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-5
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-5
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-50
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-50 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-50
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-51
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-51 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-51
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-52
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-52 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-52
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-53
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-53 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-53
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-7
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-7
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-8
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-8
+$VM = Get-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-9
+Stop-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-realestatecreditcenter -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-realestatecreditcenter -Name AVDRC-9
+$VM = Get-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-4
+Stop-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-risk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-4
+$VM = Get-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-5
+Stop-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-risk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-5
+$VM = Get-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-6
+Stop-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-risk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-6
+$VM = Get-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-7
+Stop-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-risk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-7
+$VM = Get-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-8
+Stop-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-risk-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-risk-rg -Name AVDRI-8
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-11
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-11
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-13
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-13
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-14
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-14
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-15
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-15
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-16
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-16 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-16
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-22
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-22 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-22
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-23
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-23 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-23
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-24
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-24 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-24
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-25
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-25 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-25
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-26
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-26 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-26
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-27
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-27 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-27
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-28
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-28 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-28
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-29
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-29 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-29
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-3
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-3
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-30
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-30 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-30
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-31
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-31 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-31
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-32
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-32 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-32
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-33
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-33 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-33
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-34
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-34 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-34
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-4
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-4
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-8
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-8
+$VM = Get-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-9
+Stop-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-reslend-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-reslend-rg -Name AVDRL-9
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-1
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-1
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-10
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-10
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-11
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-11
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-12
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-12 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-12
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-13
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-13
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-14
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-14
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-15
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-15
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-16
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-16 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-16
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-17
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-17 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-17
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-18
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-18 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-18
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-2
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-2
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-3
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-3
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-4
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-4
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-6
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-6
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-7
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-7
+$VM = Get-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-8
+Stop-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-retailserv-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-retailserv-rg -Name AVDRS-8
+$VM = Get-AzVM -ResourceGroupName avd-sand-rg -Name AVDSAND-0
+Stop-AzVM -ResourceGroupName avd-sand-rg -Name AVDSAND-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-sand-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-sand-rg -Name AVDSAND-0
+$VM = Get-AzVM -ResourceGroupName avd-sand-rg -Name AVDSAND-1
+Stop-AzVM -ResourceGroupName avd-sand-rg -Name AVDSAND-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-sand-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-sand-rg -Name AVDSAND-1
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-0
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-0
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-1
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-1
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-10
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-10
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-13
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-13
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-14
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-14
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-16
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-16 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-16
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-17
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-17 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-17
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-2
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-2
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-20
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-20 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-20
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-21
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-21 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-21
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-23
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-23 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-23
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-24
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-24 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-24
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-26
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-26 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-26
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-27
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-27 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-27
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-28
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-28 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-28
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-29
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-29 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-29
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-3
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-3
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-30
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-30 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-30
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-31
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-31 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-31
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-32
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-32 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-32
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-33
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-33 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-33
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-34
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-34 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-34
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-35
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-35 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-35
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-36
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-36 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-36
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-37
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-37 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-37
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-38
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-38 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-38
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-4
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-4
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-5
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-5
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-6
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-6
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-7
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-7
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-8
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-8
+$VM = Get-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-9
+Stop-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-solutioncenter-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-solutioncenter-rg -Name AVDSC-9
+$VM = Get-AzVM -ResourceGroupName avd-security-rg -Name AVDSec-0
+Stop-AzVM -ResourceGroupName avd-security-rg -Name AVDSec-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-security-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-security-rg -Name AVDSec-0
+$VM = Get-AzVM -ResourceGroupName avd-security-rg -Name AVDSec-1
+Stop-AzVM -ResourceGroupName avd-security-rg -Name AVDSec-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-security-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-security-rg -Name AVDSec-1
+$VM = Get-AzVM -ResourceGroupName avd-security-rg -Name AVDSec-2
+Stop-AzVM -ResourceGroupName avd-security-rg -Name AVDSec-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-security-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-security-rg -Name AVDSec-2
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-10
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-10 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-10
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-11
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-11 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-11
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-12
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-12 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-12
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-13
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-13 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-13
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-14
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-14 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-14
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-15
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-15 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-15
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-16
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-16 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-16
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-17
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-17 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-17
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-18
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-18 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-18
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-19
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-19 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-19
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-20
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-20 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-20
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-21
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-21 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-21
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-3
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-3
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-4
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-4
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-5
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-5
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-6
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-6
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-7
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-7
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-8
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-8 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-8
+$VM = Get-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-9
+Stop-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-9 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-testbranch-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-testbranch-rg -Name AVDTESTBR-9
+$VM = Get-AzVM -ResourceGroupName avd-it-rg -Name AVDTestVM01
+Stop-AzVM -ResourceGroupName avd-it-rg -Name AVDTestVM01 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-it-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-it-rg -Name AVDTestVM01
+$VM = Get-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-3
+Stop-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-3 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-training-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-3
+$VM = Get-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-4
+Stop-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-4 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-training-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-4
+$VM = Get-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-5
+Stop-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-5 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-training-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-5
+$VM = Get-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-6
+Stop-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-6 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-training-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-6
+$VM = Get-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-7
+Stop-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-7 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-training-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-training-rg -Name AVDTR-7
+$VM = Get-AzVM -ResourceGroupName avd-vendormanagement-rg -Name AVDVM-0
+Stop-AzVM -ResourceGroupName avd-vendormanagement-rg -Name AVDVM-0 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-vendormanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-vendormanagement-rg -Name AVDVM-0
+$VM = Get-AzVM -ResourceGroupName avd-vendormanagement-rg -Name AVDVM-1
+Stop-AzVM -ResourceGroupName avd-vendormanagement-rg -Name AVDVM-1 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-vendormanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-vendormanagement-rg -Name AVDVM-1
+$VM = Get-AzVM -ResourceGroupName avd-vendormanagement-rg -Name AVDVM-2
+Stop-AzVM -ResourceGroupName avd-vendormanagement-rg -Name AVDVM-2 -Force
+Update-AzVM -VM $VM -ResourceGroupName avd-vendormanagement-rg -EncryptionAtHost $true
+Start-AzVM -ResourceGroupName avd-vendormanagement-rg -Name AVDVM-2

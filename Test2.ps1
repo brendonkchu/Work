@@ -1,7 +1,7 @@
 ﻿clear
 
 $PCNames = New-Object -TypeName System.Collections.ArrayList
-$PCNames.add("ITNOTEBOOK002") #Adds String to ArrayList
+$PCNames.add("ITNOTEBOOK001") #Adds String to ArrayList
 
 #$env:COMPUTERNAME #Prints PC Name for Testing
 

@@ -22,7 +22,7 @@
    
 #>
 
-$csvfile= 'C:\Temp\IPaddressList.csv'
+$csvfile= 'C:\Scripts\OutputFiles\IPaddressList.csv'
 
 Param(
   [Parameter(Mandatory=$true, position=0)][string]$csvfile

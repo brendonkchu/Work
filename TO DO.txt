@@ -1,0 +1,141 @@
+Apersaud@flushingbank.com
+\\rpv-fssin\Admin is the folder that contains the Programs needed for each desktop but are locked behind elevated account access
+Difference between \\fbkvm-bkoffice and fbkvm-marcus is -bkoffice is for all branches and -marcus is for bkoffice
+3478166211 Avinda cell
+wifi: Flushing conference
+pass: 7185122931
+192.168.13.201 IS CURRENT IP
+ithelp@flushingbank.com Auto-Generate Tickets for Jira
+CMD : net user <username> /domain (Display's the users AD information along with PASSWORD reset periods and last logins) 
+
+Marian Laird does all persistant installs for Synergy, BSA Manager, SAR ,and Q2
+
+All branch internal extentions are the Branch Numbers and xx01 would be the branch managers (example Astoria is 012 so ext would be 1200)
+
+Itunes: it@flushingbank.com 
+H3ll0#789
+
+Administrator for HP Network Printers
+FbK_1929_pRn#19!
+
+Temp GoogleOS Login:
+fbuser.cbook@gmail.com
+hello$123
+Jan 1 1929
+fbuser.cbookt@gmail.com
+Local Admin Pass
+Same date as cbook
+Azuresyncchrome@flushingbank.com
+f}C!/%W$tEtM9TDM
+fbgsadmin
+X6n=Q<66 OLD
+e(8sy^r8Qw*7/>Lv NEW
+
+TPG FTP:https://support.tpgsoftware.com/
+User: flushsav
+Pass: xjb6t@F#J6deju8
+
+Autopilot:
+User: adem@flushingbank.com
+Pass: Br1nt3ch
+PIN: 7185122931
+
+
+APC SMT750RM2UNC 999 https://www.apc.com/shop/us/en/products/APC-Smart-UPS-750VA-LCD-RM-120V-with-Network-Card-Not-for-sale-in-CO-VT-or-WA-/P-SMT750RM2UNC
+APC Smart750RM2C https://www.apc.com/shop/us/en/products/APC-Smart-UPS-750VA-Rack-Mount-LCD-120V-with-SmartConnect-Port/P-SMT750RM2UC
+Smart Connect is cloud but is only for monioring. No Max
+https://www.amazon.com/APC-Smart-UPS-SmartConnect-Uninterruptible-SMT2200RM2UC/dp/B077Y7QGCJ
+
+Wipe and update to the most recent verison of the Mac OS. Some years are discontinued to a certain update point.
+Download and install bluejeans, zoom, and teams. Note down Processor and Ram specs.  FOR MAC
+
+fbuser
+hello$123
+Windows format, create user, setup security questions and login, and update windows
+Security Question: Place where you were born: Williamsport
+First Pet: cinders
+First School attended: lyter
+
+ASSET NAME, TAG, BARCODE ARE ALL SAME
+When map of Desks come, Try mapping port number with desk number
+Descriptions within the ZeroClients will contain:SN, SID, MAC
+Location Mapping: Desk Number/Port Number
+
+Due to downstairs haveing a bunch of assests for storage, figure out a way to store and catalog the assets within the room
+Also plan a way to store and input new assets within the room / Setup Scanning station
+
+App Installation: (BCX is standard Installs as well)
+	Barricuda - Install after Chrome due to service block(Otherwise close Barricuda to install chrome)
+	Crowdstrike
+	Chrome - Pull from Web
+	Adobe Reader DC - Pull from web - make sure to install other prompted apps
+	Office365 -Standard (No need for Project or Visio at this time)
+	Ivanti - Pushed from server(Must change Computer Name to match department and then join Domain flushingsavings.com . Then run gpupdate /force in cmd and restart (Check to see if remote registry is turned on in Services))
+
+Horizon8 Migration:
+	Chrome/Edge Bookmarks Export Bookmarks and HTM File
+	Internet Explorer Bookmarks Export
+	Mapped Drives Snip
+	Printers Snip
+	Outlook Acc Mapped Folders Snip
+	Miser Sign in and Sign out
+	Check User Storage Location
+	Main Applications they use
+	Teams Install C/Program86
+	Check All Programs(Adobe)
+	Check Outlook Mailbox Sync Progress
+
+Airwatch Removal: Enterprise Wipe user devices and proceed with install on Intune
+
+Shirley:
+192.168.11.1 for default
+192.168.11.21 - 22 atms
+
+Miser alternate install:
+\\rpv-fssin\Admin\Miser\MiserDesktop193 - Ken\MiserDesktopDeviceClient - Production
+Drop Production folder on desktop
+Go back to Ken folder and run MISERDeskTopClient
+Then drop Web1 Web2 Production-Chrome or Production onto desktop as a shortcut for them to access
+Web2 for bkoffice
+You can then delete the copied folder and DeskTopClient
+
+Synergy Login:
+RPV-SYNAP
+location: Flushingsavings
+User: Flushingsavings\username
+Pass: Network Password
+
+
+Before internships ends: Create a map that maps the physical location of each printer and which printer name it corrisponds to
+
+192.168.103.58  437 NOT ASSIGNENT
+
+"C:\Program Files\ibm\TDI\V7.2\bin\applyUpdates.bat" -update SDI-7.2-FP0008.zip
+
+BigFix:
+avs-bfixapp01
+big fix console
+login
+	All content:
+fixlets-scripts and patches
+baselines- deployment packages that come up to a certain baseline of patches
+actions- log of actions taken ( can analyze last actions with the ability to see details on the deployments)
+custom content- scripts+packages created by yourself
+computers- show of all devices (mostly used by group. green arrows are dynamic groups that will pickup new devices based on the properties they are looking for)
+computer groups- search criteria for what groups hold which devices(Group attributes)
+sites- breakdown for specific fixlets and tasks into different applications
+	Bigfix Managament: Console settings
+	Patch Mangament:
+Patch creation
+create baseline
+go to patch mangement
+view most receent tenable report
+grab all reported updates
+remove duplicates
+Include KB microsoft patches and ignore 2022 prior(one hsnap server needs all these patches manually)
+Patch management search microsoft kb(superseded, look for latter patch)
+right click and add to baseline
+compotenents tab, check if the the action is already assigned. if not assigned by default, the patch may be high risk so that may need so manual configuration or testing before deplpyment.
+go back to patch management and continue to add some of the recnt content with high numbers of applicable devices and any standard office or microsoft OS patches. Sharepoint is patched by Tom C so you can ignore. Java is untouched. Chrome 
+to deploy, select baseline, take action, targer:dynamically select device
+start at 11:30pm, end at 4:30am, post action:restart (allow user to restart)
