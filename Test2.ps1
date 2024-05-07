@@ -1,13 +1,9 @@
-﻿clear
-
-$PCNames = New-Object -TypeName System.Collections.ArrayList
-$PCNames.add("ITNOTEBOOK001") #Adds String to ArrayList
-
-#$env:COMPUTERNAME #Prints PC Name for Testing
-
-if ($env:COMPUTERNAME -contains $PCNames){ #If your PCNAME is in the List
-    mkdir C:\Temp\PSTEST\
-}
-else{
-    Write-Host("PC NOT ON LIST") 
-}
+﻿$lockedFolder="\\avdfslogix0001.file.core.windows.net\userprofiles001\gbuitrago_S-1-5-21-796845957-823518204-725345543-14825" 
+Get-Process | % {
+  $processVar = $_
+  $_.Modules | %{ 
+    if($_.FileName -like "$lockedFolder*"){
+        $processVar.Name + " PID:" + $processVar.id + " FullName: " + $_.FileName 
+    }
+  }
+}bkoo
