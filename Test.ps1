@@ -1,5 +1,5 @@
-$rg = "<your resource group name>"
-$hostPool = "your host group name"
+$rg = "*"
+$hostPool = "*"
 $outFile = "C:\Scripts\OutputFiles\AllAVDHostPools.csv"
 $header = "Name,Status,assignedUser,subscription,resourceGroup,sku"
 Out-File -FilePath $outfile -Encoding utf8 -InputObject $header

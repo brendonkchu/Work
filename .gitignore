@@ -10039,3 +10039,5 @@ XstPortableExport.dll
 XstPortableExport.runtimeconfig.json
 XstReader.exe
 XstReader.exe.config
+
+.fake

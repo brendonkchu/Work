@@ -4,33 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "name": "C#: <project-name> Debug",
-            "type": "dotnet",
-            "request": "launch",
-            "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
-        },
-        {
-            "type": "java",
-            "name": "AzureTerminalCommands",
-            "request": "launch",
-            "mainClass": "AzureTerminalCommands",
-            "projectName": "Scripts_6f1ddf30"
-        },
-        {
-            "type": "java",
-            "name": "Launch Java Program",
-            "request": "launch",
-            "mainClass": ""
-        },
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true
-        },
+        
         {
             "name": "PowerShell: Launch Current File",
             "type": "PowerShell",

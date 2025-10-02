@@ -1,0 +1,1 @@
+Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers

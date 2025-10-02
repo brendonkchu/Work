@@ -1,0 +1,5 @@
+RUN COMMAND:
+
+C:\Temp\Teamsbootstrapper.exe -p -o C:\Temp\MSTeams-x64.msix
+
+Be sure Teamsboostrapper.exe and MSTeams-x64.msix are in C:\TEMP

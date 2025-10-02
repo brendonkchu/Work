@@ -1,0 +1,17 @@
+OneDrive - flushingbank.com
+C:\Users\BChuc.ITNOTEBOOK001\OneDrive - flushingbank.com
+
+@echo off
+
+echo %username%
+echo %userprofile%
+
+@echo on
+
+Pause
+
+xcopy "C:\TEMP\Backup" "C:\Users\%username%" /l
+xcopy "C:\TEMP\Backup" "%Userprofile%" /l
+xcopy "C:\TEMP\Backup" "C:\Users\%username%\OneDrive - flushingbank.com" /l
+
+Pause

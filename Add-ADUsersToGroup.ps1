@@ -9,7 +9,8 @@ $Users = Import-Csv "C:\Scripts\OutputFiles\Add-ADUsersToGroup.csv"
 
 # Specify target group where the users will be added to
 # You can add the distinguishedName of the group. For example: CN=Pilot,OU=Groups,OU=Company,DC=exoip,DC=local
-$Group = "AzureFiles-Marcus Public" 
+$Group = "Personal Files Migrated to OneDrive" 
+#$Group = "Intune_OneDriveAllowed"
 
 foreach ($User in $Users) {
     # Retrieve UPN

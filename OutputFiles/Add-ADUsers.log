@@ -1,6 +1,6 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231121111030
+Start time: 20240920125052
 Username: FLUSHINGSAVINGS\bchucda
 RunAs User: FLUSHINGSAVINGS\bchucda
 Configuration Name: 
@@ -10,25 +10,77 @@ Copyright (c) Microsoft Corporation.
 
 https://aka.ms/vscode-powershell
 Type 'help' to get help.
-" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700504657-d024c706-e2c9-4e87-bb0f-306354a4de0d1700504655413\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-26016-472649.json' -FeatureFlags @() 
-Process ID: 35084
-PSVersion: 5.1.22621.2506
+" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1726850818-f89bc636-a323-4bfe-8e37-3674657aca9c1726850816100\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-11792-242439.json' -FeatureFlags @() 
+Process ID: 16536
+PSVersion: 5.1.22621.4111
 PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
-BuildVersion: 10.0.22621.2506
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4111
+BuildVersion: 10.0.22621.4111
 CLRVersion: 4.0.30319.42000
 WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is C:\Scripts\OutputFiles\Add-ADUsers.log
-msalerno already exists in AzureFiles-Marcus Public
-mcruz already exists in AzureFiles-Marcus Public
-PKosambia already exists in AzureFiles-Marcus Public
-SCohen already exists in AzureFiles-Marcus Public
-jodom already exists in AzureFiles-Marcus Public
-mwalsh already exists in AzureFiles-Marcus Public
+Added ABayram to Personal Files Migrated to OneDrive
+ABuonantuono already exists in Personal Files Migrated to OneDrive
+Added agoess to Personal Files Migrated to OneDrive
+Added cdefrancis to Personal Files Migrated to OneDrive
+Added Clee to Personal Files Migrated to OneDrive
+Added CNigro to Personal Files Migrated to OneDrive
+dallen already exists in Personal Files Migrated to OneDrive
+Added DBianrosa to Personal Files Migrated to OneDrive
+Added DHealy to Personal Files Migrated to OneDrive
+Added EBarry to Personal Files Migrated to OneDrive
+Added EThornton to Personal Files Migrated to OneDrive
+Added EWong to Personal Files Migrated to OneDrive
+Added fgregorio to Personal Files Migrated to OneDrive
+Added GBader to Personal Files Migrated to OneDrive
+Added gbuitrago to Personal Files Migrated to OneDrive
+Added GMagaldi to Personal Files Migrated to OneDrive
+Added GMisciagna to Personal Files Migrated to OneDrive
+Added HEliach to Personal Files Migrated to OneDrive
+Added HFugate to Personal Files Migrated to OneDrive
+Added jchung1 to Personal Files Migrated to OneDrive
+Added JMorton to Personal Files Migrated to OneDrive
+Added JPerry-Krucenski to Personal Files Migrated to OneDrive
+Added JStern to Personal Files Migrated to OneDrive
+jyu  does not exist in AD
+Added JYu1 to Personal Files Migrated to OneDrive
+Added KFinnegan to Personal Files Migrated to OneDrive
+Added kholland to Personal Files Migrated to OneDrive
+Added lDAntone to Personal Files Migrated to OneDrive
+Added lmoran to Personal Files Migrated to OneDrive
+mbianco does not exist in AD
+Added mbuccino to Personal Files Migrated to OneDrive
+Added mcamara to Personal Files Migrated to OneDrive
+Added MDeutsch to Personal Files Migrated to OneDrive
+Added MDiamond to Personal Files Migrated to OneDrive
+Added MLembo to Personal Files Migrated to OneDrive
+Added MNedder to Personal Files Migrated to OneDrive
+Added MPosada to Personal Files Migrated to OneDrive
+Added MSolorzano-Navarro to Personal Files Migrated to OneDrive
+Added MTrentacoste to Personal Files Migrated to OneDrive
+Added NMildon to Personal Files Migrated to OneDrive
+Added ntavares to Personal Files Migrated to OneDrive
+Added PDavi to Personal Files Migrated to OneDrive
+pmezeul already exists in Personal Files Migrated to OneDrive
+Added RAlbino to Personal Files Migrated to OneDrive
+Added RKapoor to Personal Files Migrated to OneDrive
+Added RPuccio to Personal Files Migrated to OneDrive
+Added SAchtziger to Personal Files Migrated to OneDrive
+Added sarzt to Personal Files Migrated to OneDrive
+Added scohen to Personal Files Migrated to OneDrive
+Added SNessler to Personal Files Migrated to OneDrive
+Added SObrien to Personal Files Migrated to OneDrive
+Added SRomagnolo to Personal Files Migrated to OneDrive
+Added TBogue to Personal Files Migrated to OneDrive
+Added TCullen to Personal Files Migrated to OneDrive
+Added TFlamenbaum to Personal Files Migrated to OneDrive
+Added tgino to Personal Files Migrated to OneDrive
+Added VJadbir to Personal Files Migrated to OneDrive
+Added WMunoz to Personal Files Migrated to OneDrive
 **********************
 Windows PowerShell transcript end
-End time: 20231121111032
+End time: 20240920125107
 **********************
