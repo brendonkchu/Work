@@ -1,86 +1,52 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20240920125052
-Username: FLUSHINGSAVINGS\bchucda
-RunAs User: FLUSHINGSAVINGS\bchucda
+Start time: 20260309133756
+Username: FLUSHINGSAVINGS\bchuc-da
+RunAs User: FLUSHINGSAVINGS\bchuc-da
 Configuration Name: 
-Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.22631.0)
-Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\bchucda\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Normal' -LogPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1726850818-f89bc636-a323-4bfe-8e37-3674657aca9c1726850816100\EditorServices.log' -SessionDetailsPath 'c:\Users\bchucda\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-11792-242439.json' -FeatureFlags @() 
-Process ID: 16536
-PSVersion: 5.1.22621.4111
+Machine: ITNOTEBOOK001 (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell -ExecutionPolicy ByPass -File c:\Scripts\Add-ADUsersToGroup.ps1
+Process ID: 31764
+PSVersion: 5.1.26100.7920
 PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4111
-BuildVersion: 10.0.22621.4111
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7920
+BuildVersion: 10.0.26100.7920
 CLRVersion: 4.0.30319.42000
 WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is C:\Scripts\OutputFiles\Add-ADUsers.log
-Added ABayram to Personal Files Migrated to OneDrive
-ABuonantuono already exists in Personal Files Migrated to OneDrive
-Added agoess to Personal Files Migrated to OneDrive
-Added cdefrancis to Personal Files Migrated to OneDrive
-Added Clee to Personal Files Migrated to OneDrive
-Added CNigro to Personal Files Migrated to OneDrive
-dallen already exists in Personal Files Migrated to OneDrive
-Added DBianrosa to Personal Files Migrated to OneDrive
-Added DHealy to Personal Files Migrated to OneDrive
-Added EBarry to Personal Files Migrated to OneDrive
-Added EThornton to Personal Files Migrated to OneDrive
-Added EWong to Personal Files Migrated to OneDrive
-Added fgregorio to Personal Files Migrated to OneDrive
-Added GBader to Personal Files Migrated to OneDrive
-Added gbuitrago to Personal Files Migrated to OneDrive
-Added GMagaldi to Personal Files Migrated to OneDrive
-Added GMisciagna to Personal Files Migrated to OneDrive
-Added HEliach to Personal Files Migrated to OneDrive
-Added HFugate to Personal Files Migrated to OneDrive
-Added jchung1 to Personal Files Migrated to OneDrive
-Added JMorton to Personal Files Migrated to OneDrive
-Added JPerry-Krucenski to Personal Files Migrated to OneDrive
-Added JStern to Personal Files Migrated to OneDrive
-jyu  does not exist in AD
-Added JYu1 to Personal Files Migrated to OneDrive
-Added KFinnegan to Personal Files Migrated to OneDrive
-Added kholland to Personal Files Migrated to OneDrive
-Added lDAntone to Personal Files Migrated to OneDrive
-Added lmoran to Personal Files Migrated to OneDrive
-mbianco does not exist in AD
-Added mbuccino to Personal Files Migrated to OneDrive
-Added mcamara to Personal Files Migrated to OneDrive
-Added MDeutsch to Personal Files Migrated to OneDrive
-Added MDiamond to Personal Files Migrated to OneDrive
-Added MLembo to Personal Files Migrated to OneDrive
-Added MNedder to Personal Files Migrated to OneDrive
-Added MPosada to Personal Files Migrated to OneDrive
-Added MSolorzano-Navarro to Personal Files Migrated to OneDrive
-Added MTrentacoste to Personal Files Migrated to OneDrive
-Added NMildon to Personal Files Migrated to OneDrive
-Added ntavares to Personal Files Migrated to OneDrive
-Added PDavi to Personal Files Migrated to OneDrive
-pmezeul already exists in Personal Files Migrated to OneDrive
-Added RAlbino to Personal Files Migrated to OneDrive
-Added RKapoor to Personal Files Migrated to OneDrive
-Added RPuccio to Personal Files Migrated to OneDrive
-Added SAchtziger to Personal Files Migrated to OneDrive
-Added sarzt to Personal Files Migrated to OneDrive
-Added scohen to Personal Files Migrated to OneDrive
-Added SNessler to Personal Files Migrated to OneDrive
-Added SObrien to Personal Files Migrated to OneDrive
-Added SRomagnolo to Personal Files Migrated to OneDrive
-Added TBogue to Personal Files Migrated to OneDrive
-Added TCullen to Personal Files Migrated to OneDrive
-Added TFlamenbaum to Personal Files Migrated to OneDrive
-Added tgino to Personal Files Migrated to OneDrive
-Added VJadbir to Personal Files Migrated to OneDrive
-Added WMunoz to Personal Files Migrated to OneDrive
+Added Banker44 to MFA_SSO_EXCEPTIONS
+Added Banker43 to MFA_SSO_EXCEPTIONS
+Added Banker42 to MFA_SSO_EXCEPTIONS
+Added Banker41 to MFA_SSO_EXCEPTIONS
+Added Banker25 to MFA_SSO_EXCEPTIONS
+Added Banker24 to MFA_SSO_EXCEPTIONS
+Added Banker23 to MFA_SSO_EXCEPTIONS
+Added Banker22 to MFA_SSO_EXCEPTIONS
+Added Banker21 to MFA_SSO_EXCEPTIONS
+Added Banker20 to MFA_SSO_EXCEPTIONS
+Added Banker19 to MFA_SSO_EXCEPTIONS
+Added Banker18 to MFA_SSO_EXCEPTIONS
+Added Banker17 to MFA_SSO_EXCEPTIONS
+Added Banker16 to MFA_SSO_EXCEPTIONS
+Added Banker15 to MFA_SSO_EXCEPTIONS
+Added Banker14 to MFA_SSO_EXCEPTIONS
+Added Banker13 to MFA_SSO_EXCEPTIONS
+Added Banker12 to MFA_SSO_EXCEPTIONS
+Added Banker11 to MFA_SSO_EXCEPTIONS
+Added Banker10 to MFA_SSO_EXCEPTIONS
+Added Banker09 to MFA_SSO_EXCEPTIONS
+Added Banker08 to MFA_SSO_EXCEPTIONS
+Added Banker07 to MFA_SSO_EXCEPTIONS
+Added Banker06 to MFA_SSO_EXCEPTIONS
+Added Banker05 to MFA_SSO_EXCEPTIONS
+Added Banker04 to MFA_SSO_EXCEPTIONS
+Added Banker03 to MFA_SSO_EXCEPTIONS
+Added Banker02 to MFA_SSO_EXCEPTIONS
+Added Banker01 to MFA_SSO_EXCEPTIONS
 **********************
 Windows PowerShell transcript end
-End time: 20240920125107
+End time: 20260309133758
 **********************
