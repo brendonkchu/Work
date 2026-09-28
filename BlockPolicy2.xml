@@ -1,0 +1,123 @@
+### Adding Your Second Rule — MSI Installer Blocking
+
+Click **+ Add** again for a second row:
+
+**Name:**
+```
+AppLocker - Block Private Browsers MSI
+```
+
+**OMA-URI:**
+```
+./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/PrivateBrowserBlock/MSI/Policy
+```
+
+**Data Type:**
+```
+String (XML)
+<AppLockerPolicy Version="1">
+  <RuleCollection Type="Msi" EnforcementMode="Enabled">
+
+    <!-- Allow MSIs signed by Microsoft -->
+    <FilePublisherRule
+      Id="b7af5cd8-1111-2222-3333-000000000001"
+      Name="Allow - Microsoft Signed MSI"
+      Description="Allow Microsoft installer packages"
+      UserOrGroupSid="S-1-1-0"
+      Action="Allow">
+      <Conditions>
+        <FilePublisherCondition
+          PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"
+          ProductName="*"
+          BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+
+    <!-- BLOCK: LibreWolf MSI installer -->
+    <FilePublisherRule
+      Id="b7af5cd8-2222-2222-3333-000000000002"
+      Name="BLOCK - LibreWolf Installer"
+      Description="Prevents LibreWolf from being installed"
+      UserOrGroupSid="S-1-1-0"
+      Action="Deny">
+      <Conditions>
+        <FilePublisherCondition
+          PublisherName="*LIBREWOLF*"
+          ProductName="*"
+          BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+
+    <!-- BLOCK: Mullvad MSI installer -->
+    <FilePublisherRule
+      Id="b7af5cd8-3333-2222-3333-000000000003"
+      Name="BLOCK - Mullvad Installer"
+      Description="Prevents Mullvad Browser from being installed"
+      UserOrGroupSid="S-1-1-0"
+      Action="Deny">
+      <Conditions>
+        <FilePublisherCondition
+          PublisherName="*MULLVAD*"
+          ProductName="*"
+          BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+
+  </RuleCollection>
+</AppLockerPolicy>
+```
+
+Click **Save**, then click **Next**.
+
+---
+
+## Step 6: Assign the Policy to Devices
+
+1. On the **Assignments** tab you'll see two sections: **Included Groups** and **Excluded Groups**
+
+2. Under **Included Groups**, click **+ Add Groups**
+
+3. Search for and select your target group:
+   - For testing: select a **small pilot group** (e.g., `IT-Test-Devices`)
+   - For full rollout: select **All Devices** or your main device group
+
+4. Click **Select**, then click **Next**
+
+> ⚠️ **Always test on a small group first** before assigning to all devices
+
+---
+
+## Step 7: Review and Create
+
+1. On the **Review + Create** tab, look over your settings
+2. Confirm:
+   - Profile name is correct
+   - OMA-URI entries are present (you should see 2 rows)
+   - Assignment targets the right group
+3. Click **Create**
+
+You'll see a success notification. The policy now exists and will push to devices on their next Intune sync.
+
+---
+
+## Step 8: Force the Policy to Apply (On a Test Device)
+
+Intune syncs automatically but can take up to 8 hours. To force it immediately:
+
+### Option A — Via Windows Settings (Easiest)
+```
+Settings → Accounts → Access Work or School
+→ Click your work account → Click "Info"
+→ Scroll down → Click "Sync"
+```
+
+### Option B — Via Company Portal App
+```
+Open Company Portal → Click the three dots (···) menu
+→ Click "Check Status" or "Sync"

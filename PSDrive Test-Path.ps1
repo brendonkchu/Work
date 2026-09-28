@@ -11,13 +11,13 @@ Remove-PSDrive -Name "Z"
 <#===================================================================================#>
 
 while ($true) {
-       foreach ($row in $computers) {
+       #foreach ($row in $computers) {
 
         # Prompt for parameters
-        $localFile = "C:\TEMP\ZipReader0.exe"
-        #$remoteComputer = Read-Host "Enter the remote computer name or IP address"
+        $localFile = "C:\TEMP\ZipReader.exe"
+        $remoteComputer = Read-Host "Enter the remote computer name or IP address"
         #$remoteComputer = "10.111.16.124"
-        $remoteComputer = $row.ComputerName  # Change 'ComputerName' to your actual column name
+        #$remoteComputer = $row.ComputerName  # Change 'ComputerName' to your actual column name
         $remoteDirectory = "C$\Users\Public\Desktop\"
 
         <#===================================================================================#>
@@ -30,10 +30,10 @@ while ($true) {
         if (Test-Path "\\$remoteComputer\C$"){
         New-PSDrive -Name "Z" -PSProvider FileSystem -Root $remotePath -Credential $cred -ErrorAction Stop
 
-        if (Test-Path "$remotePath\ZipReader0.exe") {
-                Write-Output "File '$remotePath\ZipReader0.exe' exists."
+        if (Test-Path "$remotePath\ZipReader.exe") {
+                Write-Output "File '$remotePath\ZipReader.exe' exists."
             } else {
-                Write-Output "File '$remotePath\ZipReader0.exe' does not exist."
+                Write-Output "File '$remotePath\ZipReader.exe' does not exist."
             }
 
         # Remove mapped drive
@@ -46,7 +46,7 @@ while ($true) {
         # like invoking a script:
         # & "C:\Path\To\PSTools\PsExec.exe" \\$remoteComputer -u $remoteUser -p (ConvertFrom-SecureString $remotePassword -AsPlainText) cmd.exe /c "dir C:\Folder"
 
-       }
+       #}
         $input = Read-Host "Do you want to run again? (true/false)"
         if ($input -eq "false") {
         Write-Host "Exiting the loop."

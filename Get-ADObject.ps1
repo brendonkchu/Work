@@ -1,0 +1,1 @@
+Get-ADUser -Filter * -SearchBase "OU=Junior Admins,OU=IT and MIS,OU=Administration,OU=RXR Plaza,OU=FSB,DC=flushingsavings,DC=com" -SearchScope OneLevel | Select-Object Name, SamAccountName, ObjectClass| Export-Csv -Path "C:\Scripts\OutputFiles\OUMembers.csv" -NoTypeInformation

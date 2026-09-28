@@ -1,3 +1,3 @@
 ﻿Get-ADUser -SearchBase "OU=FSB,DC=flushingsavings,DC=com" -Filter * |Where-Object {$_.DistinguishedName -notmatch "ATMVideo|Deleted|Disable Users|Distribution Lists|FlushingBankLive|IGOBanking|Recovery|Security Groups|Service Accounts|Special Mailboxes|Training|Board Members"} `
-|select name,samaccountname,userprincipalname |Export-CSV C:\Scripts\AllUsers.csv
+|select name,samaccountname,userprincipalname |Sort-Object -Property Name |Export-CSV C:\Scripts\OutputFiles\AllUsers.csv
 #Exports a list of users with the exception of Generic Accounts and Board Members to AllUser.csv

@@ -1,0 +1,169 @@
+<AppLockerPolicy Version="1">
+  <RuleCollection Type="Exe" EnforcementMode="Enabled">
+
+    <!-- ============================================ -->
+    <!--        REQUIRED: DEFAULT ALLOW RULES         -->
+    <!--   Without these, ALL apps get blocked!       -->
+    <!-- ============================================ -->
+
+    <!-- Allow Windows system files to run -->
+    <FilePathRule
+      Id="921cc481-6e17-4653-8f75-050b80acca20"
+      Name="Allow - Windows Directory"
+      Description="Required: Allow Windows system executables"
+      UserOrGroupSid="S-1-1-0"
+      Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\*" />
+      </Conditions>
+    </FilePathRule>
+
+    <!-- Allow Program Files to run -->
+    <FilePathRule
+      Id="a61c8b2c-a23a-4f19-b6f6-293e8f041c65"
+      Name="Allow - Program Files"
+      Description="Required: Allow installed programs to run"
+      UserOrGroupSid="S-1-1-0"
+      Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="%PROGRAMFILES%\*" />
+      </Conditions>
+    </FilePathRule>
+
+    <!-- Allow Program Files x86 to run -->
+    <FilePathRule
+      Id="a61c8b2c-b34b-5f20-c7g7-394f9f152b76"
+      Name="Allow - Program Files x86"
+      Description="Required: Allow 32-bit installed programs to run"
+      UserOrGroupSid="S-1-1-0"
+      Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="%PROGRAMFILES(X86)%\*" />
+      </Conditions>
+    </FilePathRule>
+
+    <!-- ============================================ -->
+    <!--            DENY RULES START HERE             -->
+    <!-- ============================================ -->
+
+    <!-- BLOCK: Tor Browser (path based - Tor is portable) -->
+    <FilePathRule
+      Id="b3f9b3f1-3333-4444-aaaa-000000000001"
+      Name="BLOCK - Tor Browser Folder"
+      Description="Blocks any executable inside a Tor Browser folder"
+      UserOrGroupSid="S-1-1-0"
+      Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="*\Tor Browser\*" />
+      </Conditions>
+    </FilePathRule>
+
+    <!-- BLOCK: tor.exe by filename anywhere on the system -->
+    <FilePathRule
+      Id="b3f9b3f1-3333-4444-aaaa-000000000002"
+      Name="BLOCK - tor.exe Anywhere"
+      Description="Blocks tor.exe regardless of where it is placed"
+      UserOrGroupSid="S-1-1-0"
+      Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="*\tor.exe" />
+      </Conditions>
+    </FilePathRule>
+
+    <!-- BLOCK: LibreWolf by publisher signature -->
+    <FilePublisherRule
+      Id="b3f9b3f1-4444-4444-aaaa-000000000003"
+      Name="BLOCK - LibreWolf Publisher"
+      Description="Blocks LibreWolf using its publisher certificate"
+      UserOrGroupSid="S-1-1-0"
+      Action="Deny">
+      <Conditions>
+        <FilePublisherCondition
+          PublisherName="*LIBREWOLF*"
+          ProductName="*"
+          BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+
+    <!-- BLOCK: LibreWolf by filename fallback -->
+    <FilePathRule
+      Id="b3f9b3f1-4444-4444-aaaa-000000000004"
+      Name="BLOCK - librewolf.exe Anywhere"
+      Description="Blocks librewolf.exe regardless of location"
+      UserOrGroupSid="S-1-1-0"
+      Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="*\librewolf.exe" />
+      </Conditions>
+    </FilePathRule>
+
+    <!-- BLOCK: Mullvad Browser by publisher -->
+    <FilePublisherRule
+      Id="b3f9b3f1-5555-4444-aaaa-000000000005"
+      Name="BLOCK - Mullvad Browser Publisher"
+      Description="Blocks Mullvad Browser using its publisher certificate"
+      UserOrGroupSid="S-1-1-0"
+      Action="Deny">
+      <Conditions>
+        <FilePublisherCondition
+          PublisherName="*MULLVAD*"
+          ProductName="*"
+          BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePathRule>
+
+    <!-- BLOCK: Mullvad by filename fallback -->
+    <FilePathRule
+      Id="b3f9b3f1-5555-4444-aaaa-000000000006"
+      Name="BLOCK - mullvadbrowser.exe Anywhere"
+      Description="Blocks Mullvad executable regardless of location"
+      UserOrGroupSid="S-1-1-0"
+      Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="*\mullvadbrowser.exe" />
+      </Conditions>
+    </FilePathRule>
+
+    <!-- BLOCK: Execution from Downloads folder -->
+    <FilePathRule
+      Id="b3f9b3f1-7777-4444-aaaa-000000000007"
+      Name="BLOCK - Downloads Folder Execution"
+      Description="Prevents running any executable from Downloads"
+      UserOrGroupSid="S-1-1-0"
+      Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%USERPROFILE%\Downloads\*" />
+      </Conditions>
+    </FilePathRule>
+
+    <!-- BLOCK: Execution from Desktop -->
+    <FilePathRule
+      Id="b3f9b3f1-8888-4444-aaaa-000000000008"
+      Name="BLOCK - Desktop Execution"
+      Description="Prevents running portable apps dropped on the Desktop"
+      UserOrGroupSid="S-1-1-0"
+      Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%USERPROFILE%\Desktop\*" />
+      </Conditions>
+    </FilePathRule>
+
+    <!-- BLOCK: Execution from USB/Removable drives -->
+    <FilePathRule
+      Id="b3f9b3f1-9999-4444-aaaa-000000000009"
+      Name="BLOCK - Removable Media Execution"
+      Description="Prevents running apps from USB drives"
+      UserOrGroupSid="S-1-1-0"
+      Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%HOT%\*" />
+      </Conditions>
+    </FilePathRule>
+
+  </RuleCollection>
+</AppLockerPolicy>
+

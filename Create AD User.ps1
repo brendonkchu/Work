@@ -1,5 +1,5 @@
 ﻿#Enter a path to your import CSV file
-$WXCUsers = Import-csv C:\AP\WXCusers.csv
+$WXCUsers = Import-csv C:\Scripts\OutputFiles\WXCusers.csv
 
 foreach ($User in $WXCUsers)
 {

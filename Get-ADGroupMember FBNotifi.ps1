@@ -4,4 +4,4 @@ $SecurityGroup = "FBNotificationList"
 
 Get-ADGroupMember -identity $SecurityGroup |get-aduser|
  select name,samaccountname,userprincipalname | 
- Export-csv -path C:\Scripts\FBNotificationListCurrentMembers.csv -NoTypeInformation
+ Export-csv -path C:\Scripts\OutputFiles\FBNotificationListCurrentMembers.csv -NoTypeInformation
